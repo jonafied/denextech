@@ -267,20 +267,35 @@ textarea {
     padding: 0;
     padding-top: 0;
     height: 600px;
+    width: 100%;
     background-image: url(../img/bg-hero.jpg);
     background-position: bottom left;
-    background-size: cover;
     color: #fff;
     text-align: right;
     font-family: Poppins, sans-serif;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#hero .image {
+    background-position: top right;
+    position: absolute;
+    right: 0;
+    width: 100vw;
+    height: auto;
 }
 
 #hero .content {
-    position: absolute;
-    top: 60px;
-    left: 15%;
-    max-width: 1170px; 
-    text-align: left;
+  /*  display: flex;*/
+  /*justify-content: center;*/
+  flex-wrap: wrap;
+  position: absolute;
+  top: 60px;
+  left: 100px;
+  /* max-width: 100vw; */
+  text-align: left;
 }
 
 #hero p {
@@ -322,7 +337,7 @@ textarea {
 
 section {
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     background-position: center;
     -webkit-background-size: cover;
     background-size: cover;
@@ -847,13 +862,7 @@ section h3 {
 
 /*media only screen*/
 
-@media only screen and (max-width:1400px) {
-    #track .posa {
-        max-width: 50%;
-    }
-}
-
-@media only screen and (min-width:768px) and (max-width:1140px) {
+@media only screen and (min-width:768px) and (max-width: 1200px) {
     .card {
         -webkit-flex-basis: 50%;
         -ms-flex-preferred-size: 50%;
@@ -866,29 +875,27 @@ section h3 {
     }
 }
 
-@media only screen and (max-width:1400px) {
+@media only screen and (max-width: 1200px) {
     #hero {
-        padding-top: 56.25%;
+        background-size: cover;
+        padding-top: 0;
         width: 100%;
-        height: 100%;
     }
 
     #hero .image {
-        position: absolute;
-        right: 0;
-        bottom: -50px;
+        /* width: 70vw; */
     }
 
-    #hero .image img {
-        width: 70vw;
-    }
+/*    #hero .image img {
+        width: 64vw;
+    }*/
 
-    #hero .content {
+/*    #hero .content {
         position: absolute;
         top: 60px;
-        left: 5%;
+        left: 10px;
         text-align: left;
-    }
+    }*/
 
     #hero h1 {
         max-width: 510px;
@@ -910,10 +917,19 @@ section h3 {
     .box {
         margin: 80px 25px;
         left: 10px;
-  }
+    }
+
+    #track .posa {
+        max-width: 50%;
+    }
 }
 
 @media only screen and (max-width:992px) {
+    #hero {
+        height: 600px;
+        width: 100%;
+    }
+
     #hero h1 {
         max-width: 50%;
         font-size: 26px;
