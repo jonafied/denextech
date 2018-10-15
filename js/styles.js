@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-  $("a").on('click', function(event) {
+  $("a").on('touchstart click', function(event) {
 
     if (this.hash !== "") {
     
