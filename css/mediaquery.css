@@ -1,18 +1,5 @@
 /*media only screen*/
 
-@media only screen and (min-width:768px) and (max-width: 1200px) {
-    .card {
-        -webkit-flex-basis: 50%;
-        -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
-    }
-
-    .card p {
-        margin: 0 auto;
-        max-width: 300px;
-    }
-}
-
 @media only screen and (max-width: 1200px) and (min-width: 991px) {
     #hero {
         height: 600px;
@@ -57,6 +44,19 @@
     #track .track-info {
         max-width: 50%;
         top: 0;
+    }
+}
+
+@media only screen (max-width: 1200px) and (min-width:768px) {
+    .card {
+        -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    }
+
+    .card p {
+        margin: 0 auto;
+        max-width: 300px;
     }
 }
 
@@ -309,10 +309,10 @@
     }
 
     #notify .left-half .content {
-       margin: 0 auto;
+        margin: 0 auto;
         padding-top: 220px;
         max-width: 100%;
-        height: auto;
+        height: 575px;
     }
 
     #grow {
@@ -581,7 +581,17 @@
 
     .box {
         left: 0;
+    }
 
+    .card {
+        background: #fcfcfc;
+        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+    }
+
+    .card:hover {
+        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+        box-shadow: 0 5px 5px rgba(42, 153, 188, 1);
     }
 }
 
