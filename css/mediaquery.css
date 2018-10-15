@@ -30,11 +30,11 @@
 
     #hero h1 {
         max-width: 650px;
-        font-size: 36px;
+        font-size: 2.25em;
     }
 
     #hero p {
-        font-size: 26px;
+        font-size: 1.6em;
     }
 
     #notify .right-img {
@@ -68,20 +68,20 @@
 
     #hero h1 {
         max-width: 550px;
-        font-size: 30px;
+        font-size: 1.9em;
     }
 
     #hero p {
         display: block;
         margin-top: 5vw;
         max-width: 300px;
-        font-size: 19px;
+        font-size: 1.2em;
     }
 
     #hero .button {
         margin-top: 20px;
         margin-right: 20px;
-        font-size: 16px;
+        font-size: 1em;
     }
 
     #track .track-info {
@@ -100,7 +100,7 @@
 
     .footer {
         padding: 70px 30px 20px;
-        font-size: 16px;
+        font-size: 1em;
     }
 
     .footer .flex-wrap {
@@ -131,7 +131,7 @@
 
     .footer .copyright {
         text-align: left;
-        font-size: 14px;
+        font-size: .875em;
     }
 }
 
@@ -141,11 +141,11 @@
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 1.9em;
     }
 
     h3 {
-        font-size: 26px;
+        font-size: 1.6em;
     }
 
     #hero {
@@ -348,7 +348,7 @@
         width: 100%;
         background: #34a5be;
         letter-spacing: normal;
-        font-size: 26px;
+        font-size: 1.6em;
     }
 
     .box {
@@ -384,7 +384,7 @@
     }
 
     .box ul {
-        font-size: 18px;
+        font-size: 1.125em;
     }
 
     .box hr {
@@ -407,7 +407,7 @@
     }
 
     .box-title {
-        font-size: 24px;
+        font-size: 1.5em;
     }
 
     .box-1 .buy {
@@ -464,7 +464,7 @@
         -webkit-border-radius: 8px;
         border-radius: 8px;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 1.25em;
         line-height: 50px;
         -webkit-transform: none;
         -ms-transform: none;
@@ -511,12 +511,12 @@
 
     #form input[type=submit] {
         padding: 17px 30px;
-        font-size: 18px;
+        font-size: 1.25em;
     }
 
     .footer {
         padding: 70px 30px 20px;
-        font-size: 16px;
+        font-size: 1em;
     }
 
     .footer .flex-wrap {
@@ -547,7 +547,7 @@
 
     .footer .copyright {
         text-align: left;
-        font-size: 14px;
+        font-size: .875em;
     }
 }
 
@@ -558,22 +558,22 @@
 
     #hero p {
         margin: 10px auto 0;
-        font-size: 18px;
+        font-size: 1.125em;
     }
 
     #hero h1 {
         margin-top: 20px;
         margin-bottom: 20px;
-        font-size: 26px;
+        font-size: 1.6em;
     }
 
     #hero .button {
         margin-top: 10px;
-        font-size: 18px;
+        font-size: 1.125em;
     }
 
     #pricing-perks ul {
-        font-size: 18px;
+        font-size: 1.125em;
     }
 
     .box {
