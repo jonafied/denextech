@@ -276,8 +276,8 @@ section h3 {
 .card {
     position: relative;
     display: inline-block;
-    padding: 30px 20px;
-    width: 20%;
+    padding: 15px 40px;
+    width: 25%;
     height: 350px;
     -webkit-border-radius: 8px;
     border-radius: 8px;
