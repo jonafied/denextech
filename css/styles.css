@@ -283,6 +283,7 @@ section h3 {
     border-radius: 8px;
     background: #fff;
     text-align: center;
+    cursor: pointer;
 }
 
 .card h3 {
@@ -309,6 +310,7 @@ section h3 {
     transform: translate(-50%, 0);
     display: block;
 }
+
 
 .card .icon.hovered {
     display: none;
@@ -518,7 +520,7 @@ section h3 {
     background-color: #efefef;
     text-align: center;
     margin: auto;
-    width: 80%;
+    width: 90%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
