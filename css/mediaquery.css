@@ -37,6 +37,10 @@
         font-size: 1.6em;
     }
 
+    #access, #track, #grow, #notify {
+        height: 450px;
+    }
+
     #notify .right-img {
         max-width: 60%;
     }
@@ -96,6 +100,10 @@
     #access .content {
       max-width: 40%;
       height: auto;
+    }
+
+    #access, #track, #grow, #notify {
+        height: 450px;
     }
 
     .footer {
@@ -291,12 +299,7 @@
 
     #notify .right-info {
         display: none;
-    }
-
-    .section-info .content {
-      width: 100%;
-      height: auto;
-    }  
+    } 
 
     #notify .mobile-visible {
         position: absolute;
@@ -305,10 +308,10 @@
         z-index: 1;
     }
 
-    #notify .left-half {
-        padding: 40px 40px 80px;
+    #notify .left-half .content {
+       margin: 0 auto;
         padding-top: 220px;
-        width: 100%;
+        max-width: 100%;
         height: auto;
     }
 
@@ -578,10 +581,7 @@
 
     .box {
         left: 0;
-    }
 
-    .section-info .content {
-      width: 100%;
-      height: auto;
     }
 }
+
