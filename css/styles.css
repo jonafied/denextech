@@ -273,7 +273,7 @@ section h3 {
     max-width: 1280px;
 }
 
-.card {
+.card, .card-info {
     position: relative;
     display: inline-block;
     padding: 15px 40px;
@@ -309,8 +309,12 @@ section h3 {
     -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
     display: block;
+    width: 100%;
 }
 
+.link {
+    width: 100%;
+}
 
 .card .icon.hovered {
     display: none;
