@@ -309,6 +309,14 @@
     #hero .button {
         margin-right: 0;
         margin-bottom: 0;
+        margin-top: 10px;
+        font-size: 1.125em;
+        margin-bottom: 0;
+        padding: 13px 37px; 
+        min-width: 50%; 
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
     }
 
     #features {
