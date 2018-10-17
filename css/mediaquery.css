@@ -57,7 +57,7 @@
 
     #hero .content {
         position: relative;
-        left: 150px;
+        left: 130px;
     }
 
     .card {
@@ -159,7 +159,7 @@
         top: auto;
         left: auto;
         position: absolute;
-        left: 145px;
+        left: 125px;
         text-align: center;
         margin-top: 100px;
         max-width: 96vw;
