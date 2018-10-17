@@ -1,27 +1,90 @@
 /*media only screen*/
 
-@media only screen and (max-width: 1200px) and (min-width: 992px) {
-    #hero {
-        height: 600px;
-    }
+@media only screen and (max-width: 1100px) {
+  #hero {
+      display:flex;
+      color: #fff;
+      text-align: right;
+      font-family: Poppins, sans-serif;
+      padding: 0;
+      padding-top: 0;
+      min-height: 400px;
+      width: 100%;
+      background-image: url(../img/img-bg-hero.jpg);
+      background-position: center; 
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
 
-    #hero .image img {
-        width: 50%;
-        height: auto; 
-    }
+  #hero .content {
+      position: relative;  
+      top: 55px;
+      left: 160px;
+      text-align: left;
+  }
 
-    #hero .content {
+    #track .track-info {
         position: absolute;
+        top: -90px;
+        left: 0;
+        z-index: 1;
+        width: 45%;
+        height: auto;
+
+    }
+}
+@media only screen and (max-width: 992px) {
+    #hero .content {
+        position: relative;
         left: 150px;
     }
 
-    #hero h1 {
-        max-width: 650px;
-        font-size: 2.25em;
+    .card {
+        width: 45%;
+        height: auto;
+        padding: 15px 50px;
+        margin-top: 0;
+        margin-bottom: 20px;
     }
 
-    #hero p {
-        font-size: 1.6em;
+    #track .left-half .content,
+    #track .right-half .content {
+        width: 100%;
+        height: auto;
+    }
+
+    #notify .left-half .content {
+        max-width: 50%;
+        height: auto;
+        padding-left: 0;
+    }
+
+    #track .left-half {
+        overflow: hidden;
+        width: 80%;
+        height: 330px;
+        background-image: url(../img/img-track.png); 
+        background-position: top right;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #track .left-half img {
+        display: none;
+    }
+
+    #track .left-half,
+    #track .right-half {
+        display: inline-block;
+        width: 80%;
+    }
+
+    #access .content {
+        max-width: 50%;
     }
 
     #access, #track, #grow, #notify {
@@ -29,7 +92,14 @@
     }
 
     #notify .right-img {
-        max-width: 60%;
+        position: absolute;
+        width: 65%;
+        height: auto;
+        background-image: url(../img/img-notify.png); 
+        background-position: top right;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .section-info .content {
@@ -43,36 +113,40 @@
 
     #track .track-info {
         max-width: 50%;
-        top: 0;
-    }
-    
-    .card {
-        width: 35%;
-        padding: 15px 40px;
-        margin-top: 30px;
+        top: -50px;
     }
 }
 
-@media only screen and (max-width:991px) and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
     #hero {
-        width: 100%;
-        height: 500px;
+        background-image: url(../img/bg-header-mobile.jpg);
+        background-position: bottom;
+        min-height: 600px;
     }
     #hero .content {
         position: absolute;
-        left: 100px;
+        left: 125px;
+        text-align: center;
+        margin-top: 100px;
     }
 
     #hero h1 {
         max-width: 550px;
         font-size: 1.9em;
+        margin-bottom: 50px;
     }
 
     #hero p {
         display: block;
         margin-top: 5vw;
-        max-width: 300px;
+        max-width: 100%;
         font-size: 1.2em;
+        text-align: center;
     }
 
     #hero .button {
@@ -102,7 +176,15 @@
     }
 
     #access, #track, #grow, #notify {
-        height: 450px;
+        height: 480px;
+    }
+
+    #notify .left-half .content {
+        max-width: 85%;
+    }
+
+    #notify .left-half {
+        padding-left: -100px;
     }
 
     .footer {
@@ -142,16 +224,21 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
-    .mobile-visible {
-        display: block;
+@media only screen and (max-width: 600px) {
+    .container {
+        padding-right: 0;
+        padding-left: 0;
     }
 
-    h1 {
+    .mobile-visible {
+        display: block; 
+    }
+
+    #hero h1 {
         font-size: 1.9em;
     }
 
-    h3 {
+    #hero h3 {
         font-size: 1.6em;
     }
 
@@ -165,10 +252,6 @@
 
     #hero .image {
         display: none;
-    }
-
-    .image {
-        
     }
 
     #hero .content {
@@ -192,6 +275,7 @@
 
     #hero .button {
         margin-right: 0;
+        margin-bottom: 0;
     }
 
     #features {
@@ -269,11 +353,15 @@
         overflow: hidden;
         width: 100%;
         height: 330px;
-        /* background-image: url(../img/img-track-mobile.jpg); */
+        background-image: url(../img/img-track-mobile.jpg); 
         background-position: top right;
         -webkit-background-size: cover;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    #track .left-half img {
+        display: none;
     }
 
     #track .right-half {
@@ -309,7 +397,7 @@
 
     #notify .left-half .content {
         margin: 0 auto;
-        padding-top: 220px;
+        padding-top: 200px;
         max-width: 100%;
         height: 575px;
     }
@@ -565,6 +653,11 @@
 }
 
 @media only screen and (min-width: 299px) and (max-width: 599px) {
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
     #hero {
         padding-top: 20px;
     }
@@ -583,10 +676,18 @@
     #hero .button {
         margin-top: 10px;
         font-size: 1.125em;
+        margin-bottom: 0;
     }
 
     #pricing-perks ul {
         font-size: 1.125em;
+    }
+
+    #notify .left-half .content {
+        margin: 0 auto;
+        padding-top: 205px;
+        max-width: 100%;
+        height: 650px;
     }
 
     .box {
