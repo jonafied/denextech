@@ -184,7 +184,14 @@
     #hero .button {
         margin-top: 20px;
         margin-right: 20px;
+        margin-bottom: 0;
         font-size: 1em;
+        display: block;
+        position: relative;
+        vertical-align: middle;
+        max-width: 50%;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
 
     .card {
@@ -707,6 +714,11 @@
         margin-top: 10px;
         font-size: 1.125em;
         margin-bottom: 0;
+        padding: 13px 37px; 
+        min-width: 50%; 
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
     }
 
     #pricing-perks ul {
