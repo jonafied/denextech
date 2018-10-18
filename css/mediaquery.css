@@ -70,7 +70,7 @@
 	  text-align: left;
 	}
 
-		#pricing {
+	#pricing {
 		padding-top: 0;
 		height: auto;
 		background: 0 0;
@@ -83,7 +83,8 @@
 	#pricing .flex-wrap {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
+		flex-wrap: row wrap;
+		justify-content: space-around;
 	}
 
 	#pricing h2 {
@@ -128,6 +129,10 @@
         margin-bottom: 20px;
     }
 
+    .card .link {
+    		bottom: 0;
+    }
+
     #track .left-half .content,
     #track .right-half .content {
         width: 100%;
@@ -137,7 +142,7 @@
     #notify .left-half .content {
         max-width: 50%;
         height: auto;
-        padding-left: -10px;
+        padding-left: 0;
     }
 
     #track .left-half {
@@ -171,7 +176,7 @@
 
     #notify .right-img {
         position: absolute;
-        width: 65%;
+        width: 60%;
         height: auto;
         background-image: url(../img/img-notify.png); 
         background-position: top right;
@@ -217,7 +222,7 @@
 
     #hero .content {
         top: auto;
-        left: auto;
+        /* left: auto; */
         position: absolute;
         left: 125px;
         text-align: center;
@@ -322,223 +327,9 @@
         text-align: left;
         font-size: .875em;
     }
-=======
-	#hero .content {
-		position: relative;
-		left: 100px;
-	}
 
-	.card {
-		margin-top: 0;
-		margin-bottom: 20px;
-		width: 50%;
-		height: 350px;
-	}
 
-	#track .left-half .content,
-	#track .right-half .content {
-		width: 100%;
-		height: auto;
-	}
-
-	#notify .left-half .content {
-		max-width: 50%;
-		height: auto;
-		padding-left: -10px;
-	}
-
-	#track .left-half {
-		overflow: hidden;
-		width: 80%;
-		height: 330px;
-		background-image: url(../img/img-track.png); 
-		background-position: top right;
-		-webkit-background-size: cover;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-
-	#track .left-half img {
-		display: none;
-	}
-
-	#track .left-half,
-	#track .right-half {
-		display: inline-block;
-		width: 80%;
-	}
-
-	#access .content {
-		max-width: 50%;
-	}
-
-	#access, #track, #grow, #notify {
-		/* height: 450px; */
-	}
-
-/*	#notify .right-img {
-		position: absolute;
-		width: 55%;
-		height: auto;
-		background-image: url(../img/img-notify.png);
-		background-position: top right;
-		-webkit-background-size: cover;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}*/
-
-	.section-info .content {
-		/* padding: 0 15px; */
-	}
-
-	.box {
-		margin: 80px 25px;
-		left: 10px;
-	}
-
-	#track .track-info {
-		max-width: 50%;
-		top: -50px;
-	}
-}
-
-@media only screen and (max-width: 768px) {
-	.mobile-visible {
-        display: none;
-	}
-
-	.container {
-		padding-right: 0;
-		padding-left: 0;
-	}
-
-	#hero {
-		background-image: url(../img/bg-header-mobile.jpg);
-		background-position: bottom;
-		background-repeat: no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		min-height: 600px;
-		padding: 0;
-		padding-top: 0;
-		width: 100vw;
-	}
-
-	#hero .content {
-		top: auto;
-		/* left: auto; */
-		position: absolute;
-		text-align: center;
-		margin-top: 100px;
-		max-width: 96vw;
-		display: block;
-		float: none;
-	}
-
-	#hero h1 {
-		max-width: 550px;
-		font-size: 1.9em;
-		margin-bottom: 50px;
-	}
-
-	#hero p {
-		display: block;
-		margin-top: 5vw;
-		max-width: 100%;
-		font-size: 1.2em;
-		text-align: center;
-	}
-
-	#hero .button {
-		margin-top: 20px;
-		margin-right: 20px;
-		margin-bottom: 0;
-		font-size: 1em;
-		display: block;
-		position: relative;
-		vertical-align: middle;
-		max-width: 50%;
-		margin: 0 auto;
-		margin-bottom: 20px;
-	}
-
-	.card {
-		height: 350px;
-		width: 296px;
-		margin-top: 30px;
-		background: #fcfcfc;
-		-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-		box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-	}
-
-	#track .track-info {
-	  top: 0;
-	}
-
-	.section-info .content {
-	  max-width: 100%;
-	  height: auto;
-	}
-
-	#access .content {
-	  max-width: 40%;
-	  height: auto;
-	}
-
-	#access, #track, #grow, #notify {
-		 height: 480px; 
-	}
-
-	#notify .left-half .content {
-		min-width: 46%;
-		padding-left: 0;
-	}
-
-	#notify .left-half {
-		padding-left: -100px;
-	}
-
-	.footer {
-		padding: 70px 30px 20px;
-		font-size: 1em;
-	}
-
-	.footer .flex-wrap {
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-		flex-direction: column;
-	}
-
-	.footer-logo {
-		margin-bottom: 30px;
-	}
-
-	.footer-contacts {
-		margin-left: 0;
-	}
-
-	.footer-contacts .col {
-		-webkit-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-	}
-
-	.footer .address {
-		margin-bottom: 20px;
-	}
-
-	.footer .copyright {
-		text-align: left;
-		font-size: .875em;
-	}
->>>>>>> responsive
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 667px) {
 	.container {
 		padding-right: 0;
 		padding-left: 0;
