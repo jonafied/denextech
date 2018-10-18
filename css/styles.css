@@ -206,6 +206,7 @@ section.section-info {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    /* height: 400px; */
 }
 
 section.section-info .fw-image {
@@ -214,15 +215,16 @@ section.section-info .fw-image {
 
 section.section-info .left-half,
 section.section-info .right-half {
-    width: 50%;
+    width: 56%;
 }
 
 section.section-info .left-half img,
 section.section-info .right-half img {
     width: 100%;
-    height: 100%;
+    height: auto;
     -o-object-fit: cover;
     object-fit: cover;
+    background-position: center;
 }
 
 section.section-info .left-half.fw-content {
@@ -250,7 +252,7 @@ section p {
 
 section h3 {
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 
 #features {
@@ -271,14 +273,15 @@ section h3 {
 .card {
     position: relative;
     display: inline-block;
-    padding: 0 15px;
+    padding: 30px 15px;
     width: 23%;
-    /*height: 350px;*/
+    height: 350px;
     -webkit-border-radius: 8px;
     border-radius: 8px;
     background: #fff;
     text-align: center;
     cursor: pointer;
+    margin-top: -20px;
 }
 
 .card h3 {
@@ -290,13 +293,13 @@ section h3 {
 
 .card p {
     font-size: 1em;
-    line-height: 1.2em;
-    padding-bottom: 10px;
+    line-height: 1.1em;
+    padding-bottom: 0;
 }
 
 .card .link {
     position: absolute;
-    bottom: 0;
+    bottom: 55px;
     left: 50%;
     color: #959697;
     text-decoration: none;
@@ -439,7 +442,7 @@ section h3 {
 }
 
 #access {
-    height: 500px;
+    height: auto;
     background-color: #fcfcfc;
 }
 
@@ -504,7 +507,7 @@ section h3 {
 }
 
 #grow {
-    height: 500px;
+    height: auto;
 }
 
 #grow .left-half {
@@ -565,6 +568,8 @@ section h3 {
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
 }
 
 #pricing-perks {
