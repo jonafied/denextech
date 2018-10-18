@@ -115,25 +115,6 @@
 }
 
 @media only screen and (max-width: 992px) {
-<<<<<<< HEAD
-    #hero {
-      display:flex;
-      color: #fff;
-      text-align: right;
-      font-family: Poppins, sans-serif;
-      padding: 0;
-      padding-top: 0;
-      min-height: 400px;
-      width: 100%;
-      background-image: url(../img/img-bg-hero.jpg);
-      background-position: center;
-      background-repeat: no-repeat;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    }
-
     #hero .content {
         position: relative;
         left: 130px;
