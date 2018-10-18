@@ -605,6 +605,7 @@ section h3 {
 #trial h3 {
     color: #4c4c5b;
     font-size: 2em;
+    /* width: 220px; */
 }
 
 #trial .text-primary {

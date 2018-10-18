@@ -228,9 +228,7 @@
 
     #hero .content {
         top: auto;
-        /* left: auto; */
         position: absolute;
-        left: 125px;
         text-align: center;
         margin-top: 100px;
         max-width: 96vw;
@@ -239,8 +237,8 @@
     }
 
     #hero h1 {
-        max-width: 550px;
-        font-size: 1.9em;
+        font-size: 1.875em;
+        margin: 0 auto;
         margin-bottom: 50px;
     }
 
@@ -248,7 +246,7 @@
         display: block;
         margin-top: 5vw;
         max-width: 100%;
-        font-size: 1.2em;
+        font-size: 1.375em;
         text-align: center;
     }
 
@@ -359,7 +357,7 @@
 	}
 
 	#hero h1 {
-		font-size: 1.9em;
+		font-size: 1.875em;
 	}
 
 	#hero h3 {
@@ -798,13 +796,14 @@
 
 	#hero p {
 		margin: 30px auto 0;
-		font-size: 1.125em;
+		font-size: 1.375em;
 	}
 
 	#hero h1 {
-		margin-top: 43px;
-		margin-bottom: 85px;
-		font-size: 1.6em;
+		margin-top: 20px;
+		margin-bottom: 15px;
+		font-size: 1.875em;
+		width: 85%;
 	}
 
 	#hero .button {
@@ -839,7 +838,7 @@
 		background: #fcfcfc;
 		-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
 		box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-		
+
 	}
 }
 
