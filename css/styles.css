@@ -273,7 +273,7 @@ section h3 {
     position: relative;
     display: inline-block;
     padding: 0 15px;
-    width: 23%;
+    width: 296px;
     height: 350px;
     -webkit-border-radius: 8px;
     border-radius: 8px;
@@ -292,12 +292,12 @@ section h3 {
 .card p {
     font-size: 1em;
     line-height: 1.2em;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .card .link {
     position: absolute;
-    bottom: 0;
+    bottom: 90px;
     left: 50%;
     color: #959697;
     text-decoration: none;
