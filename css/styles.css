@@ -206,6 +206,7 @@ section.section-info {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    /* height: 400px; */
 }
 
 section.section-info .fw-image {
@@ -219,7 +220,7 @@ section.section-info .right-half {
 
 section.section-info .left-half img,
 section.section-info .right-half img {
-    width: 100%;
+    width: 50vw;
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
@@ -251,7 +252,7 @@ section p {
 
 section h3 {
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 
 #features {
@@ -272,14 +273,15 @@ section h3 {
 .card {
     position: relative;
     display: inline-block;
-    padding: 0 15px;
-    width: 296px;
+    padding: 30px 15px;
+    width: 23%;
     height: 350px;
     -webkit-border-radius: 8px;
     border-radius: 8px;
     background: #fff;
     text-align: center;
     cursor: pointer;
+    margin-top: -20px;
 }
 
 .card h3 {
@@ -291,13 +293,13 @@ section h3 {
 
 .card p {
     font-size: 1em;
-    line-height: 1.2em;
-    padding-bottom: 0px;
+    line-height: 1.1em;
+    padding-bottom: 0;
 }
 
 .card .link {
     position: absolute;
-    bottom: 90px;
+    bottom: 55px;
     left: 50%;
     color: #959697;
     text-decoration: none;
@@ -505,7 +507,7 @@ section h3 {
 }
 
 #grow {
-    height: 500px;
+    height: auto;
 }
 
 #grow .left-half {

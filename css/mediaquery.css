@@ -1,6 +1,6 @@
 /*media only screen*/
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
   #hero {
 	  display:flex;
 	  color: #fff;
@@ -22,8 +22,14 @@
   #hero .content {
 	  position: relative;  
 	  top: 55px;
-	  left: 160px;
+	  left: 140px;
 	  text-align: left;
+  }
+
+  .card {
+  	margin-bottom: 25px;
+  	width: 35%;
+  	height: 350px;
   }
 
 	#track .track-info {
@@ -36,36 +42,27 @@
 
 	}
 }
-@media only screen and (max-width: 992px) {
-	#hero {
-	  display:flex;
-	  color: #fff;
-	  text-align: right;
-	  font-family: Poppins, sans-serif;
-	  padding: 0;
-	  padding-top: 0;
-	  min-height: 400px;
-	  width: 100%;
-	  background-image: url(../img/img-bg-hero.jpg);
-	  background-position: center;
-	  background-repeat: no-repeat;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-	}
 
+@media only screen and (max-width: 1024px) {
+	#hero .content {
+	  position: relative;  
+	  top: 55px;
+	  left: 120px;
+	  text-align: left;
+  }
+}
+
+@media only screen and (max-width: 992px) {
 	#hero .content {
 		position: relative;
-		left: 150px;
+		left: 100px;
 	}
 
 	.card {
-		/* width: 45%; */
-		/* height: auto; */
-		/* padding: 15px 50px; */
 		margin-top: 0;
 		margin-bottom: 20px;
+		width: 50%;
+		height: 350px;
 	}
 
 	#track .left-half .content,
@@ -111,9 +108,9 @@
 
 	#notify .right-img {
 		position: absolute;
-		width: 65%;
+		width: 55%;
 		height: auto;
-		background-image: url(../img/img-notify.png); 
+		background-image: url(../img/img-notify.png);
 		background-position: top right;
 		-webkit-background-size: cover;
 		background-size: cover;
@@ -136,6 +133,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+	.mobile-visible {
+        display: none;
+	}
+
 	.container {
 		padding-right: 0;
 		padding-left: 0;
@@ -614,9 +615,9 @@
 		box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
 	}
 
-	.card:hover {
+/*	.card:hover {
 		display: none;
-	}
+	}*/
 
 	#pricing-perks {
 		margin-top: 0;
@@ -695,6 +696,7 @@
 }
 
 @media only screen and (min-width: 299px) and (max-width: 599px) {
+
 	.container {
 		padding-right: 0;
 		padding-left: 0;
@@ -751,10 +753,7 @@
 		background: #fcfcfc;
 		-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
 		box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-	}
 
-	.card:hover {
-		display: none;
 	}
 }
 
