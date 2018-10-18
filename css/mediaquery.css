@@ -468,6 +468,9 @@
 		height: 350px;
 		width: 296px;
 		margin-top: 30px;
+		background: #fcfcfc;
+		-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+		box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
 	}
 
 	#track .track-info {
@@ -485,7 +488,7 @@
 	}
 
 	#access, #track, #grow, #notify {
-		/* height: 480px; */
+		 height: 480px; 
 	}
 
 	#notify .left-half .content {
@@ -995,7 +998,7 @@
 		font-size: 1.125em;
 		margin-bottom: 0;
 		padding: 13px 37px; 
-		min-width: 50%; 
+		min-width: 60%; 
 		position: relative;
 		display: inline-block;
 		vertical-align: middle;
