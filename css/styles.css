@@ -215,12 +215,12 @@ section.section-info .fw-image {
 
 section.section-info .left-half,
 section.section-info .right-half {
-    width: 50%;
+    width: 56%;
 }
 
 section.section-info .left-half img,
 section.section-info .right-half img {
-    width: 50vw;
+    width: 100%;
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
@@ -568,6 +568,8 @@ section h3 {
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
 }
 
 #pricing-perks {
