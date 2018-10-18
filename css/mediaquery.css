@@ -74,6 +74,7 @@
 		padding-top: 0;
 		height: auto;
 		background: 0 0;
+		/* margin-bottom: -200px; */
 	}
 
 	#pricing .container {
@@ -391,7 +392,7 @@
 	.card {
 		margin-top: 30px;
 		height: 350px;
-		width: auto;
+		width: 70%;
 	}
 
 	section h3 {
