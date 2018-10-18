@@ -615,8 +615,7 @@
 	}
 
 	.card:hover {
-		-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-		box-shadow: 0 5px 5px rgba(42, 153, 188, 1);
+		display: none;
 	}
 
 	#pricing-perks {
@@ -755,8 +754,7 @@
 	}
 
 	.card:hover {
-		-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-		box-shadow: 0 5px 5px rgba(42, 153, 188, 1);
+		display: none;
 	}
 }
 
