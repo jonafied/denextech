@@ -860,10 +860,9 @@
   }
 }
 
-@media (hover:none), 
-(hover:on-demand) {
-  .card:hover { 
-     color: transparent;
-  }
+@media not all and (pointer: coarse) {
+    .card:hover {
+      color: transparent;
+  }
 }
 
