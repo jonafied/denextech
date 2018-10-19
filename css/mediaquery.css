@@ -861,7 +861,7 @@
 }
 
 @media not all and (pointer: coarse) {
-  img.icon:hover {
+  .card:hover {
     display:none;
   }
 }
