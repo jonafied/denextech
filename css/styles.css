@@ -325,11 +325,11 @@ section h3 {
     display: none;
 }
 
-/*.card:hover {
+.card:hover {
     background: #fcfcfc;
     -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
     box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-}*/
+}
 
 .card:hover .link,
 .card:hover h3 {

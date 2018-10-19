@@ -861,8 +861,8 @@
 }
 
 @media not all and (pointer: coarse) {
-    .card:hover {
-      color: transparent;
+  img.icon:hover {
+    display:none;
   }
 }
 
