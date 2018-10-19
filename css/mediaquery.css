@@ -135,7 +135,7 @@
     .card {
         width: 45%;
         height: auto;
-        padding: 15px 50px;
+        padding: 40px 50px;
         margin-top: 0;
         margin-bottom: 20px;
     }
@@ -324,7 +324,7 @@
 
     .card {
         width: 50%;
-        padding: 15px 40px;
+        padding: 40px 40px;
         margin-top: 30px;
     }
 
@@ -764,7 +764,7 @@
 	}
 
   .card .link {
-    bottom: 30px;
+    bottom: 0;
   }
 
 /*	.card:hover {
@@ -915,10 +915,10 @@
 		background: #fcfcfc;
 		-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
 		box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-  }
+		}
 
   .card .link {
-    bottom: 30px;
+    bottom: 0;
   }
 }
 

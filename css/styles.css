@@ -279,7 +279,7 @@ section h3 {
 .card {
     position: relative;
     display: inline-block;
-    padding: 30px 20px;
+    padding: 45px 20px;
     width: 23%;
     height: 350px;
     -webkit-border-radius: 8px;
@@ -309,7 +309,7 @@ section h3 {
     bottom: 0;
     left: 50%;
     right: 0;
-    color: #959697;
+    /* color: #959697; */
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1em;
