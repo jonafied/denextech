@@ -421,7 +421,7 @@
 
 	section h3 {
 		font-weight: 700;
-    width: 80vw;
+    /*width: 80vw;*/
 	}
 
 	section.section-info {
@@ -859,4 +859,11 @@
     bottom: 30px;
   }
 }
+
+/*@media (hover:none), 
+(hover:on-demand) {
+  nav a:hover { 
+    background: none;
+  }
+}*/
 
