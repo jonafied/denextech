@@ -170,6 +170,10 @@ img {
     margin-bottom: 121px;
 }
 
+#hero #btn-signin {
+    padding: 13px 40px;
+}
+
 #hero .button:first-child:not(:hover) {
     border: 1px solid transparent;
     background-color: rgba(31, 246, 246, .6);

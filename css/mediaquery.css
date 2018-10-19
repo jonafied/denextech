@@ -239,7 +239,7 @@
     #hero h1 {
         font-size: 1.875em;
         margin: 0 auto;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     #hero p {
@@ -261,6 +261,10 @@
         max-width: 50%;
         margin: 0 auto;
         margin-bottom: 20px;
+    }
+
+    #hero #btn-signin {
+        max-width: 42%;
     }
 
     .card {
@@ -400,6 +404,10 @@
 		display: inline-block;
 		vertical-align: middle;
 	}
+
+  #hero #btn-signin {
+    max-width: 42%; 
+  }
 
 	#features {
 		padding: 0 0 60px;
@@ -810,12 +818,15 @@
 		margin-top: 10px;
 		font-size: 1.125em;
 		margin-bottom: 0;
-		padding: 13px 37px; 
-		min-width: 60%; 
+		min-width: 60%;
 		position: relative;
 		display: inline-block;
 		vertical-align: middle;
 	}
+
+  #hero #btn-signin {
+    min-width: 42%;
+  }
 
 	#pricing-perks ul {
 		font-size: 1.125em;
