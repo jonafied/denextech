@@ -860,10 +860,10 @@
   }
 }
 
-/*@media (hover:none), 
+@media (hover:none), 
 (hover:on-demand) {
-  nav a:hover { 
-    background: none;
+  .card:hover { 
+     color: transparent;
   }
-}*/
+}
 
