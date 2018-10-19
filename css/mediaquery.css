@@ -964,17 +964,17 @@
   }
 }
 
-@media (hover: none) {
-    card:hover { 
-       color: transparent; 
+
+@media not all and (pointer: coarse) {
+  &:hover {
+      &content:'';
+    }
   }
 }  
-
-/*
-@media not all and (pointer: coarse) {
-  .card:hover {
-    display: none;*/
-
+  .card:hover
+    display: none;
+  }  
+}
   /*.card:hover {
       background: #fcfcfc;
       -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
