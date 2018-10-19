@@ -421,6 +421,7 @@
 
 	section h3 {
 		font-weight: 700;
+    width: 80vw;
 	}
 
 	section.section-info {
@@ -707,6 +708,9 @@
 		box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
 	}
 
+  .card .link {
+    bottom: 30px;
+  }
 /*	.card:hover {
 		display: none;
 	}*/
@@ -849,6 +853,10 @@
 		background: #fcfcfc;
 		-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
 		box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+  }
+
+  .card .link {
+    bottom: 30px;
   }
 }
 
