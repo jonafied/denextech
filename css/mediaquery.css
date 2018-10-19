@@ -267,7 +267,7 @@
         position: absolute;
         text-align: center;
         margin-top: 100px;
-        max-width: 96vw;
+        min-width: 75vw;
         display: block;
         float: none;
     }
