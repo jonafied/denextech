@@ -52,6 +52,11 @@
   	height: 350px;
   }
 
+  .box {
+    margin-left: 34px;
+    margin-right: 0;
+  }
+
 	#track .track-info {
 		position: absolute;
 		top: -30px;
@@ -74,12 +79,21 @@
 	  text-align: left;
 	}
 
-	#pricing {
-		padding-top: 0;
-		height: auto;
-		background: 0 0;
-		/* margin-bottom: -200px; */
-	}
+  #pricing {
+    padding-top: 50px;
+    height: 430px;
+    background: -webkit-linear-gradient(271.11deg, #34afca .75%, #1a798d 96.95%);
+    background: -o-linear-gradient(271.11deg, #34afca .75%, #1a798d 96.95%);
+    background: linear-gradient(178.89deg, #34afca .75%, #1a798d 96.95%);
+    margin-bottom: -220px;
+  }
+
+  #pricing h2 {
+    margin: 0 auto 40px;
+    max-width: 640px;
+    color: #fff;
+    line-height: 1.4;
+  }
 
 	#pricing .container {
 		padding: 0;
@@ -89,36 +103,13 @@
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: row wrap;
-		justify-content: space-around;
+		justify-content: center;
 	}
 
-	#pricing h2 {
-		display: block;
-		margin: 0;
-		padding: 60px;
-		max-width: 100%;
-		width: 100%;
-		background: #34a5be;
-		letter-spacing: normal;
-		font-size: 1.6em;
-	}
-	
-	.box {
-	  position: relative;
-    display: inline-block;
-    margin: 80px 35px;
-    /*max-width: 295px;*/
-    width: 100vw;
-    height: 345px;
-    display: flex;
-    flex-direction: column;
-    align-items: 	
-  }
-  
   #pricing-perks {
 		margin-top: 0; 
 
-  } 
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -204,6 +195,51 @@
         max-width: 50%;
         top: -50px;
     }
+}
+
+@media only screen and (max-width: 899px) {
+  #hero .content {
+    position: relative;  
+    top: 55px;
+    left: 100px;
+    text-align: left;
+  }
+
+  .footer {
+    padding: 70px 30px 20px;
+    font-size: 1em;
+  }
+
+  .footer .flex-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+
+  .footer-contacts {
+    margin-left: 0;
+  }
+
+  .footer-contacts .col {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .footer .address {
+    margin-bottom: 20px;
+  }
+
+  .footer .copyright {
+    text-align: left;
+    font-size: .875em;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -553,7 +589,7 @@
 
 	#pricing {
 		padding-top: 0;
-		height: auto;
+		/* height: auto; */
 		background: 0 0;
 	}
 

@@ -278,7 +278,7 @@ section h3 {
 .card {
     position: relative;
     display: inline-block;
-    padding: 30px 15px;
+    padding: 30px 20px;
     width: 23%;
     height: 350px;
     -webkit-border-radius: 8px;
@@ -300,6 +300,7 @@ section h3 {
     font-size: 1em;
     line-height: 1.5em;
     padding-bottom: 0;
+    /* margin-bottom: -35px; */
 }
 
 .card .link {
@@ -557,6 +558,7 @@ section h3 {
     background: -webkit-linear-gradient(271.11deg, #34afca .75%, #1a798d 96.95%);
     background: -o-linear-gradient(271.11deg, #34afca .75%, #1a798d 96.95%);
     background: linear-gradient(178.89deg, #34afca .75%, #1a798d 96.95%);
+    margin-bottom: -220px;
 }
 
 #pricing h2 {
@@ -567,26 +569,21 @@ section h3 {
 }
 
 #pricing .flex-wrap {
-    -webkit-justify-content: space-around;
+    -webkit-justify-content: center;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
+    -webkit-flex-wrap: row wrap;
+    -ms-flex-wrap: row wrap;
     flex-wrap: row wrap;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-#pricing-perks {
-    margin-top: 260px;
-}
-
 #pricing-perks ul {
     display: inline-block;
     color: #4c4c5b;
     text-align: left;
-    font-size: 1.4vw;
+    font-size: 1.4em;
 }
 
 #pricing-perks ul li {
@@ -599,6 +596,17 @@ section h3 {
     margin-right: 20px;
     content: url(../img/check.svg);
     vertical-align: middle;
+}
+
+.cards-buy {
+    -webkit-justify-content: center;
+    -ms-flex-pack: distribute;
+    -webkit-flex-wrap: row wrap;
+    -ms-flex-wrap: row wrap;
+    flex-wrap: row wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #trial {
