@@ -133,7 +133,7 @@
 		<section id="demo">
 			<div class="container-demo">
 				<div class="demo-info">
-					<video autoplay loop muted width="100%" height="auto" controls>
+					<video width="100%" height="auto" controls>
 							<source src="img/denex-promo.mp4" type="video/mp4">
 					</video>
 				</div>
@@ -241,26 +241,14 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <!-- Mobile Touchstart -->
    <script>
-	    $(document).ready(function(){
-
-		  $("a").on('click', function(event) {
-
-			    if (this.hash !== "") {
-			    
-			      event.preventDefault();
-
-			      var hash = this.hash;
-
-			      $('html, body').animate({
-			        scrollTop: $(hash).offset().top
-			      }, 0, function(){
-			   
-			        window.location.hash = hash;
-			      });
-			    } 
+	    $(document).ready(function() {
+			  $("a").on("click touchend", function(e) {
+			    var el = $(this);
+			    var link = el.attr("href");
+			    window.location = link;
 			  });
 			});
-		</script>
+	</script>
 </body>
 </html>
 

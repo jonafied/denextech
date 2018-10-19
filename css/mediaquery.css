@@ -189,6 +189,7 @@
         position: absolute;
         width: 57%;
         height: auto;
+        margin-top: 40px;
         background-image: url(../img/img-notify.png);
         background-position: top right;
         -webkit-background-size: cover;

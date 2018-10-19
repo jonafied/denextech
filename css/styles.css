@@ -327,6 +327,11 @@ section h3 {
     text-transform: uppercase;
     font-size: 1em;
     font-weight: 100;
+    /* flex-direction: row; */
+    /* align-self: flex-end; */
+    /* position: relative; */
+    vertical-align: bottom;
+    bottom: 0;
 }
 
 .card .icon.hovered {
