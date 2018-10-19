@@ -320,12 +320,6 @@ section h3 {
     height: 100%;
 }
 
-<<<<<<< HEAD
-=======
-.card h5 {
-    bottom: 0;
-}
-
 h5 {
     color: #959697;
     text-decoration: none;
@@ -334,7 +328,6 @@ h5 {
     font-weight: 100;
 }
 
->>>>>>> responsive
 .card .icon.hovered {
     display: none;
 }

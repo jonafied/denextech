@@ -982,7 +982,7 @@
   }
 }
 
-@media (max-width: 599px) {
+/*@media (max-width: 599px) {
   .card a {
     display: none;
   }
@@ -990,7 +990,7 @@
   .card a:hover {
     display: inline-block;
   }
-}
+}*/
 
 /*@media not all and (pointer: coarse) {
   card:hover {
