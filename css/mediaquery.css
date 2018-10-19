@@ -1,6 +1,6 @@
 /*media only screen*/
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (min-width: 1920px) {
 	  #hero {
 	  display:flex;
 	  color: #fff;
@@ -17,6 +17,20 @@
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+  }
+
+  .card {
+    position: relative;
+    display: inline-block;
+    padding: 30px 20px;
+    width: 296px;
+    height: 350px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -20px;
   }
 }
 
@@ -47,7 +61,7 @@
   }
 
   .card {
-  	margin-bottom: 25px;
+  	margin-bottom: 35px;
   	width: 35%;
   	height: 350px;
   }
@@ -260,6 +274,10 @@
         padding: 0;
         padding-top: 0;
         width: 100vw;
+
+        /*background: -webkit-linear-gradient(100.44deg, #8AD5F5 0.42%, #2A99BC 26.5%, #090B4B 83.24%);
+        background: -o-linear-gradient(100.44deg, #8AD5F5 0.42%, #2A99BC 26.5%, #090B4B 83.24%);
+        background: linear-gradient(100.44deg, #8AD5F5 0.42%, #2A99BC 26.5%, #090B4B 83.24%);*/
     }
 
     #hero .content {
@@ -522,11 +540,11 @@
 		overflow: hidden;
 		width: 100%;
 		height: 330px;
-		background-image: url(../img/img-track-mobile.jpg); 
+		/* background-image: url(../img/img-track.jpg); */
 		background-position: top right;
 		-webkit-background-size: cover;
-		background-size: cover;
-		background-repeat: no-repeat;
+		background-size: cover; 
+		background-repeat: no-repeat; 
 	}
 
 	#track .left-half img {
@@ -964,33 +982,18 @@
   }
 }
 
-
-@media not all and (pointer: coarse) {
-  &:hover {
-      &content:'';
-    }
-  }
-}  
-  .card:hover
+@media (max-width: 599px) {
+  .card a {
     display: none;
-  }  
+  }
+
+  .card a:hover {
+    display: inline-block;
+  }
 }
-  /*.card:hover {
-      background: #fcfcfc;
-      -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-  }
 
-  .card:hover .link,
-  .card:hover h3 {
-      color: #34a5be;
+/*@media not all and (pointer: coarse) {
+  card:hover {
+    color: blue;
   }
-
-  .card:hover .icon {
-      display: none;
-  }
-
-  .card:hover .icon.hovered {
-      display: inline-block;
-      text-align: center;*/
- 
+}*/
