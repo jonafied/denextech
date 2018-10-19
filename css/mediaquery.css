@@ -902,10 +902,10 @@
     bottom: 30px;
   }
 }
-
+/*
 @media not all and (pointer: coarse) {
   .card:hover {
-    display: none;
+    display: none;*/
 
   /*.card:hover {
       background: #fcfcfc;
@@ -925,6 +925,4 @@
   .card:hover .icon.hovered {
       display: inline-block;
       text-align: center;*/
-  }
-}
-
+ 
