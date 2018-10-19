@@ -210,7 +210,7 @@ section.section-info {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    /* height: 400px; */
+    height: 500px; 
 }
 
 section.section-info .fw-image {
@@ -305,8 +305,9 @@ section h3 {
 
 .card .link {
     position: absolute;
-    bottom: 30px;
+    bottom: 0;
     left: 50%;
+    right: 0;
     color: #959697;
     text-decoration: none;
     text-transform: uppercase;
@@ -316,10 +317,19 @@ section h3 {
     transform: translate(-50%, 0);
     display: block;
     width: 100%;
+    height: 100%;
 }
 
-.link {
-    width: 100%;
+.card h5 {
+    bottom: 0;
+}
+
+h5 {
+    color: #959697;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 100;
 }
 
 .card .icon.hovered {
@@ -333,7 +343,8 @@ section h3 {
 }
 
 .card:hover .link,
-.card:hover h3 {
+.card:hover h3,
+.card:hover h5 {
     color: #34a5be;
 }
 
@@ -514,6 +525,7 @@ section h3 {
 
 #grow {
     height: auto;
+    bottom: 0;
 }
 
 #grow .left-half {
@@ -526,11 +538,12 @@ section h3 {
 }
 
 #demo {
-    height: 500px;
-    background-color: #efefef;
+    position: relative;
+    height: 0;
+    padding-top: 56.25%;
     text-align: center;
     margin: auto;
-    width: 100%;
+    width: auto;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -548,6 +561,17 @@ section h3 {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+   /* overflow: hidden;*/
+}
+
+#demo .container-demo {
+    position: absolute;
+    top: 0
+    left: 0;
+    width: 100%;
+    height: auto;
+    border: 0;
+    bottom: 0;
 }
 
 /*pricing*/

@@ -46,28 +46,32 @@
 						<img class="icon hovered" src="img/icon-access-hover.svg" alt="Access">
 						<h3>Access</h3>
 						<p>Instant mobile access treatment plans and schedules</p>
-						<a href="#access" class="link">Learn More</a>
+						<a href="#access" class="link"></a>
+						<h5>Learn More</h5>
 					</div>
 					<div class="card">
 						<img class="icon" src="img/icon-track.svg" alt="Track">
 						<img class="icon hovered" src="img/icon-track-hover.svg" alt="Track">
 						<h3>Track</h3>
 						<p>Track appointments, patient profiles, view clinical notes and images simultaneously on an intuitive dashboard</p>
-						<a href="#track" class="link">Learn More</a>
+						<a href="#track" class="link"></a>
+						<h5>Learn More</h5>
 					</div>
 					<div class="card">
 						<img class="icon" src="img/icon-notify.svg" alt="Notify">
 						<img class="icon hovered" src="img/icon-notify-hover.svg" alt="Notify">
 						<h3>Notify</h3>
 						<p>Live messaging and alerts to your patients</p>
-						<a href="#notify" class="link">Learn More</a>
+						<a href="#notify" class="link"></a>
+						<h5>Learn More</h5>
 					</div>
 					<div class="card">
 						<img class="icon" src="img/icon-grow.svg" alt="Grow">
 						<img class="icon hovered" src="img/icon-grow-hover.svg" alt="Grow">
 						<h3>Grow</h3>
 						<p>Grow your business through automation of high-rated online reviews</p>
-						<a href="#grow" class="link">Learn More</a>
+						<a href="#grow" class="link"></a>
+						<h5>Learn More</h5>
 					</div>
 				</div>
 			</div>
@@ -129,7 +133,9 @@
 		<section id="demo">
 			<div class="container-demo">
 				<div class="demo-info">
-					<a href="#" class="button">Demo</a>
+					<video width="100%" height="auto" controls>
+							<source src="img/denex-promo.mp4" type="video/mp4">
+					</video>
 				</div>
 			</div>    
 		</section><!-- demo video ends here -->
@@ -230,6 +236,31 @@
 			</div>
 		</div> <!-- ends container -->
 	</footer>
+
+	<!-- Plugin JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Custom scripts for this template -->
+  <script>
+		  $(document).ready(function(){
+
+		  $("a").on('click', function(event) {
+
+		    if (this.hash !== "") {
+		    
+		      event.preventDefault();
+
+		      var hash = this.hash;
+
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 0, function(){
+		   
+		        window.location.hash = hash;
+		      });
+		    } 
+		  });
+		});
+  </script>
 
 </body>
 </html>
