@@ -902,6 +902,66 @@
     bottom: 30px;
   }
 }
+
+@supports (-ms-ime-align: auto) {
+  #pricing {
+    padding-top: 50px;
+    height: 430px;
+    background: -webkit-linear-gradient(271.11deg, #34afca .75%, #1a798d 96.95%);
+    background: -o-linear-gradient(271.11deg, #34afca .75%, #1a798d 96.95%);
+    background: linear-gradient(178.89deg, #34afca .75%, #1a798d 96.95%);
+    margin-bottom: -220px;
+}
+
+#pricing h2 {
+    margin: 0 auto 40px;
+    max-width: 640px;
+    color: #fff;
+    line-height: 1.4;
+}
+
+#pricing .flex-wrap {
+    -webkit-justify-content: center;
+    -ms-flex-pack: distribute;
+    -webkit-flex-wrap: row wrap;
+    -ms-flex-wrap: row wrap;
+    flex-wrap: row wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#pricing-perks ul {
+    display: inline-block;
+    color: #4c4c5b;
+    text-align: left;
+    font-size: 1.4em;
+}
+
+#pricing-perks ul li {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#pricing-perks ul li::before {
+    display: inline-block;
+    margin-right: 20px;
+    content: url(../img/check.svg);
+    vertical-align: middle;
+}
+
+.cards-buy {
+    -webkit-justify-content: center;
+    -ms-flex-pack: distribute;
+    -webkit-flex-wrap: row wrap;
+    -ms-flex-wrap: row wrap;
+    flex-wrap: row wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}  
+
 /*
 @media not all and (pointer: coarse) {
   .card:hover {
