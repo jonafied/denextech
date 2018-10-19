@@ -210,7 +210,8 @@ section.section-info {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    height: 500px; 
+    height: 500px;
+    top: 0;
 }
 
 section.section-info .fw-image {
@@ -320,7 +321,7 @@ section h3 {
     height: 100%;
 }
 
-h5 {
+.learn {
     color: #959697;
     text-decoration: none;
     text-transform: uppercase;
@@ -340,7 +341,7 @@ h5 {
 
 .card:hover .link,
 .card:hover h3,
-.card:hover h5 {
+.card:hover .learn {
     color: #34a5be;
 }
 
@@ -522,6 +523,7 @@ h5 {
 #grow {
     height: auto;
     bottom: 0;
+    top: 0;
 }
 
 #grow .left-half {
@@ -557,12 +559,12 @@ h5 {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-   /* overflow: hidden;*/
+    /* overflow: hidden;*/
 }
 
 #demo .container-demo {
     position: absolute;
-    top: 0
+    top: 0;
     left: 0;
     width: 100%;
     height: auto;
