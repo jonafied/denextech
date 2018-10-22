@@ -133,7 +133,7 @@
 		<section id="demo">
 			<div class="container-demo">
 				<div class="demo-info">
-					<video autoplay muted loop width="100%" height="auto" id="autoplay">
+					<video playsinline autoplay muted loop width="100%" height="auto" id="autoplay">
 							<source src="img/denex-promo.mp4" type="video/mp4">
 					</video>
 				</div>
@@ -241,17 +241,12 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <!-- Mobile Touchstart -->
    <script>
-	    $(document).ready(function() {
-			  $("a").on("click tap", function(e) {
-			    var el = $(this);
-			    var link = el.attr("href");
-			    window.location = link;
-			  });
-	      // due to policy changes by google chrome
-	      $("#autoplay")[0].muted = true;
-	      $("#autoplay")[0].autoplay = true;
-	      $("#autoplay")[0].loop = true;
-	      $("#autoplay")[0].load();
+	    $(document).ready(function() {
+			  $("a").on("click tap", function(e) {
+			    var el = $(this);
+			    var link = el.attr("href");
+			    window.location = link;
+			  });
 			});
 	</script>
 </body>
