@@ -246,7 +246,7 @@
    <!-- Mobile Touchstart -->
    <script>
 	    $(document).ready(function() {
-			  $("a").on("click touchstart", function(e) {
+			  $("a").on("click tap", function(e) {
 			    var el = $(this);
 			    var link = el.attr("href");
 			    window.location = link;
