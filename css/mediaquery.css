@@ -289,10 +289,10 @@
         position: absolute;
         text-align: center;
         margin-top: 100px;
-        min-width: 75vw;
+        min-width: 100vw;
         display: block;
         float: none;
-        /* left: 0; */
+        left: 0; 
     }
 
     #hero h1 {
@@ -634,7 +634,7 @@
 	#pricing h2 {
 		display: block;
 		margin: 0;
-		padding: 60px;
+		padding: 50px;
 		max-width: 100%;
 		width: 100%;
 		background: #34a5be;
@@ -882,7 +882,7 @@
 		margin-top: 40px;
 		margin-bottom: 45px;
 		font-size: 1.875em;
-		width: 85%;
+		width: 75%;
 	}
 
 	#hero .button {
@@ -904,7 +904,11 @@
   }
 
   #pricing {
-    height: 100vh;
+    /* height: 90vh; */
+    /* min-height: 121vh; */
+    /* padding-top: 0; */
+    /* background: 0 0; */
+    /* bottom: 0; */
   }
 
 	#pricing-perks ul {
