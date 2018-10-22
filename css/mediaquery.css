@@ -128,8 +128,7 @@
 
 @media only screen and (max-width: 992px) {
     #hero .content {
-        position: relative;
-        left: 130px;
+        position: absolute;
     }
 
     .card {
@@ -289,6 +288,7 @@
         min-width: 75vw;
         display: block;
         float: none;
+        /* left: 0; */
     }
 
     #hero h1 {
