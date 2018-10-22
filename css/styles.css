@@ -307,9 +307,8 @@ section h3 {
 
 .card p {
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.4em;
     padding-bottom: 0;
-    /* margin-bottom: -35px; */
 }
 
 .card .link {
@@ -346,7 +345,6 @@ section h3 {
     -webkit-transform: translate(-50%, 0);
     -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
-
 }
 
 .card .icon.hovered {

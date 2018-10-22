@@ -93,6 +93,10 @@
 	  text-align: left;
 	}
 
+  .learn {
+     padding-bottom: 4vh;
+  }
+
   #pricing {
     padding-top: 50px;
     height: 430px;
@@ -473,6 +477,11 @@
 		height: 350px;
 		width: 60%;
 	}
+
+  .learn {
+    padding-bottom: 11vh;
+  }
+
 
 	section h3 {
 		font-weight: 700;
@@ -888,6 +897,14 @@
 
   #hero #btn-signin {
     min-width: 51%;
+  }
+
+  .learn {
+    padding-bottom: 9vh;
+  }
+
+  #pricing {
+    height: 100vh;
   }
 
 	#pricing-perks ul {
