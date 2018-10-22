@@ -249,20 +249,18 @@
 			  });
 			});
 
-    $(document).ready(function() {
-		  $("a").on("click touchend", function(e) {
-		    var el = $(this);
-		    var link = el.attr("href");
-		    window.location = link;
-		  });
-      // due to policy changes by google chrome
-      $("#autoplay")[0].muted = true;
-      $("#autoplay")[0].autoplay = true;
-      $("#autoplay")[0].loop = true;
-      $("#autoplay")[0].load();
-});
-
-</script>
+	    $(document).ready(function() {
+			  $("a").on("click touchend", function(e) {
+			    var el = $(this);
+			    var link = el.attr("href");
+			    window.location = link;
+			  });
+	      // due to policy changes by google chrome
+	      $("#autoplay")[0].muted = true;
+	      $("#autoplay")[0].autoplay = true;
+	      $("#autoplay")[0].loop = true;
+	      $("#autoplay")[0].load();
+			});
 	</script>
 </body>
 </html>
