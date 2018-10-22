@@ -133,7 +133,7 @@
 		<section id="demo">
 			<div class="container-demo">
 				<div class="demo-info">
-					<video autoplay muted loop width="100%" height="auto">
+					<video autoplay muted loop width="100%" height="auto" id="autoplay">
 							<source src="img/denex-promo.mp4" type="video/mp4">
 					</video>
 				</div>
@@ -248,6 +248,21 @@
 			    window.location = link;
 			  });
 			});
+
+    $(document).ready(function() {
+		  $("a").on("click touchend", function(e) {
+		    var el = $(this);
+		    var link = el.attr("href");
+		    window.location = link;
+		  });
+      // due to policy changes by google chrome
+      $("#autoplay")[0].muted = true;
+      $("#autoplay")[0].autoplay = true;
+      $("#autoplay")[0].loop = true;
+      $("#autoplay")[0].load();
+});
+
+</script>
 	</script>
 </body>
 </html>
