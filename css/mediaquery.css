@@ -913,6 +913,18 @@
   		box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
 	}
 
+/*  .card:hover .icon.hovered {
+      display: none;
+  }
+
+  .card:hover .icon {
+      display: inline-block;
+  }*/
+
+  .card:hover, .icon.hovered {
+       display: inline-block;
+  }
+
   .card .link {
       bottom: 0;
   }
@@ -941,19 +953,19 @@
 }
 
 @media (hover:none) { /* No hover support */
-  card:hover {
+  card:hover .icon-hovered {
     background: none;
   } 
 }
 
 @media (hover:on-demand) { /* Touch screen devices */
-  card:hover {
+  card:hover .icon-hovered {
     background: none;
   } 
 }
 
 @media not all and (pointer: coarse) {
-  card:hover {
+  card:hover .icon-hovered {
     background: none;
   }
 }

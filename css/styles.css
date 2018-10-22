@@ -344,18 +344,21 @@ section h3 {
     display: none;
 }
 
+/*mouse hover changes card background*/
 .card:hover {
     background: #fcfcfc;
     -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
     box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
 }
 
+/*mouse hovers card*/
 .card:hover .link,
 .card:hover h3,
 .card:hover .learn {
-    color: #34a5be;
+     color: #34a5be; 
 }
 
+/*default icon color*/
 .card:hover .icon {
     display: none;
 }
