@@ -564,13 +564,7 @@ section h3 {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-<<<<<<< HEAD
-    /* overflow: hidden;*/
-=======
     overflow: hidden;
-    bottom: 0;
-    top: 0;
->>>>>>> responsive
 }
 
 #demo .container-demo {
