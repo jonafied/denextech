@@ -198,7 +198,7 @@ section {
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 500px;
+    /* height: 500px; */
 }
 
 section.section-info {
@@ -456,6 +456,7 @@ h5 {
 }
 
 #access {
+    /* max-height: 500px; */
     height: auto;
     background-color: #fcfcfc;
 }
@@ -522,7 +523,7 @@ h5 {
 
 #grow {
     height: auto;
-    bottom: 0;
+    /* bottom: 0; */
 }
 
 #grow .left-half {
@@ -537,15 +538,17 @@ h5 {
 #demo {
     position: relative;
     height: 0;
-    padding-top: 56.25%;
-    background-color: #efefef;
+    padding-bottom: 56.25%;
+    /* padding-top: 25px; */
+    background-color: #000000;
     text-align: center;
     margin: auto;
-    width: auto;
-    display: -webkit-box;
+    /*width: auto;*/
+    /*height: 100vh;*/
+    display: flex;
+    /*display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -554,22 +557,45 @@ h5 {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center;
+  
     -webkit-box-pack: center;
     -webkit-justify-content: center;
-    -ms-flex-pack: center;
+    -ms-flex-pack: center;*/
     justify-content: center;
     overflow: hidden;
+    bottom: 0;
+    top: 0;
 }
 
-#demo .container-demo {
+#demo h1 {
+    text-align: center;
+    font-size: 6em;
+    background: #fff;
+    /* padding: 20px; */
+    margin: 15px;
+    /* z-index: 1;*/
+    height: 0;
+    opacity: 0.7;
+}
+
+.container-demo {
     position: absolute;
     top: 0
     left: 0;
     width: 100%;
-    height: auto;
-    border: 0;
-    bottom: 0;
+    height: 100%;
+    /*bottom: 0;*/
+}
+
+.color-overlay {
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 0; */
+    /* background-color: #000; */
+    /* width: auto; */
+    /* height: auto; */
+    /* opacity: 0.9; */
+    /* bottom: 0; */
 }
 
 /*pricing*/
@@ -581,6 +607,9 @@ h5 {
     background: -o-linear-gradient(271.11deg, #34afca .75%, #1a798d 96.95%);
     background: linear-gradient(178.89deg, #34afca .75%, #1a798d 96.95%);
     margin-bottom: -220px;
+    width: auto;
+    left: 0;
+    position: relative;
 }
 
 #pricing h2 {
