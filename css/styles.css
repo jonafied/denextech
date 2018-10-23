@@ -204,7 +204,7 @@ section.section-info {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    /* display: flex; */
+    display: flex;
     overflow: hidden;
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -227,7 +227,7 @@ section.section-info .right-half {
 section.section-info .left-half img,
 section.section-info .right-half img {
     width: 100%;
-    height: 10;
+    height: auto;
     -o-object-fit: cover;
     object-fit: cover;
     background-position: center;
@@ -340,33 +340,33 @@ section h3 {
     transform: translate(-50%, 0);
 }
 
-.card .icon.hovered {
+/* .card .icon.hovered {
     display: none;
-}
+} */
 
 /*mouse hover changes card background*/
-.card:hover {
+/* .card:hover {
     background: #fcfcfc;
     -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
     box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-}
+} */
 
 /*mouse hovers card*/
-.card:hover .link,
+/* .card:hover .link,
 .card:hover h3,
 .card:hover .learn {
      color: #34a5be; 
-}
+} */
 
 /*default icon color*/
-.card:hover .icon {
+/* .card:hover .icon {
     display: none;
-}
+} */
 
-.card:hover .icon.hovered {
+/* .card:hover .icon.hovered {
     display: inline-block;
     text-align: center;
-}
+} */
 
 .box {
     position: relative;
