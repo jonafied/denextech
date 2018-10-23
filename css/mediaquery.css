@@ -304,7 +304,7 @@
 
     #hero {
         background-image: url(../img/mobile-header.jpg);
-        background-position: bottom right;
+        background-position: bottom;
         background-repeat: no-repeat;
         -webkit-background-size: cover;
         -moz-background-size: cover;
