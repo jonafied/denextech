@@ -31,6 +31,15 @@
       cursor: pointer;
       margin-top: -20px;
   }
+
+  #track .track-info {
+      position: absolute;
+      top: -80px;
+      left: 0;
+      z-index: 1;
+      width: 50%;
+      height: auto;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -253,9 +262,41 @@
       left: 100px; 
       text-align: left;
   }
+  .card .icon.hovered {
+    display: none;
+} 
+
+/*mouse hover changes card background*/
+.card:hover {
+    background: #fcfcfc;
+    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+}
+
+/*mouse hovers card*/
+.card:hover .link,
+.card:hover h3,
+.card:hover .learn {
+     color: #34a5be; 
+}
+
+/*default icon color*/
+.card:hover .icon {
+    display: none;
+}
+
+.card:hover .icon.hovered {
+    display: inline-block;
+    text-align: center;
+}
+
 }
 
 @media only screen and (max-width: 768px) {
+	.icon.hovered {
+		display: none;
+		
+	}
     .container {
         padding-right: 0;
         padding-left: 0;
@@ -404,6 +445,9 @@
 }
 
 @media only screen and (max-width: 667px) {
+	.icon.hovered {
+		display: none !important;
+	}
   	.container {
     		padding-right: 0;
     		padding-left: 0;
@@ -882,6 +926,9 @@
   #hero #btn-signin {
       min-width: 51%;
   }
+  .icon.hovered {
+    display: none;
+}
 
   .learn {
       padding-bottom: 9vh;
@@ -913,13 +960,13 @@
   		box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
 	}
 
-/*  .card:hover .icon.hovered {
+  .card:hover .icon.hovered {
       display: none;
   }
 
   .card:hover .icon {
       display: inline-block;
-  }*/
+  }
 
   .card:hover, .icon.hovered {
        display: inline-block;
