@@ -171,6 +171,17 @@
     #trial h3 {
         margin: 0 auto;
         min-width: 50%;
+    }
+    .cards {
+        width: 89vw;
+        height: auto;
+        display: inline-block;
+    }
+
+    .cards-buy {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
   }
 }
 
@@ -260,8 +271,8 @@
     #hero .content {
         position: absolute;
         top: 55px;
-        left: 100px; 
-        text-align: left;
+        left: 100px;
+        /* text-align: left; */
     }
     .card .icon.hovered {
       display: none;
@@ -403,6 +414,18 @@
         width: 55%;
         height: auto;
 		}
+
+    .cards {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+    }
+
+    .cards-buy {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
 
     .footer {
         padding: 70px 30px 20px;
@@ -671,6 +694,12 @@
     		letter-spacing: normal;
     		font-size: 1.6em;
   	}
+
+    .cards-buy {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 
   	.box {
     		display: -webkit-box;
@@ -1060,5 +1089,4 @@
         justify-content: center;
   }
 }
-
 
