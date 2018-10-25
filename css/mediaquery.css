@@ -42,6 +42,25 @@
   }
 }
 
+@media only screen and (max-width: 1366px) {
+    .card {
+        width: 50%;
+        padding: 40px 40px;
+        margin-top: 30px;
+        background: #fcfcfc;
+        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+    }
+
+    .lf-card {
+        right: 10px;
+    }
+
+    .rt-card {
+        left: 10px;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
     #hero {
     	  display:flex;
@@ -131,6 +150,23 @@
     	  top: 55px;
     	  left: 120px;
     	  text-align: left;
+    }
+
+    .card {
+        width: 50%;
+        padding: 40px 40px;
+        margin-top: 30px;
+        background: #fcfcfc;
+        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+    }
+
+    .lf-card {
+        right: 10px;
+    }
+
+    .rt-card {
+        left: 10px;
     }
 
     .learn {
@@ -368,11 +404,22 @@
     #hero #btn-signin {
         max-width: 42%;
     }
-
+    
     .card {
         width: 50%;
         padding: 40px 40px;
         margin-top: 30px;
+        background: #fcfcfc;
+        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+    }
+
+    .lf-card {
+        right: 10px;
+    }
+
+    .rt-card {
+        left: 10px;
     }
 
     #track .track-info {
