@@ -1081,6 +1081,21 @@
         max-width: 100%;
     }
 
+    section.section-info .left-half img {
+        display: none;
+    }
+
+    #grow .left-half img {
+        background-image: url(../img/img-grow-mobile.jpg);
+        width: 100%;
+        height: auto;
+        -o-object-fit: cover;
+        object-fit: cover;
+        background-position: center;
+        position: relative;
+        display: block;
+    }
+
   	.box {
   		  left: 0;
   	}
