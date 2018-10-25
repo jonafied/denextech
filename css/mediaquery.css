@@ -1124,6 +1124,14 @@
     		box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
   	}
 
+    .lf-card {
+        right: 0;
+    }
+
+    .rt-card {
+        left: 0;
+    }
+
     .card:hover .icon.hovered {
         display: none;
     }
