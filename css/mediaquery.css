@@ -948,6 +948,52 @@
 
     #hero #btn-signin {
         min-width: 51%;
+    }
+
+    .card {
+        height: 350px;
+        width: 296px;
+        background: #fcfcfc;
+        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+    }
+
+    .card:hover .icon.hovered {
+        display: none;
+    }
+
+    .card:hover .icon {
+        display: inline-block;
+    }
+
+    .card:hover, .icon.hovered {
+         display: inline-block;
+    }
+
+    .card .link {
+        bottom: 0;
+    }
+
+    #access .content {
+        min-width: 100vw;
+        height: auto;
+    }
+
+    #track .right-half .content {
+        min-width: 75vw;
+        height: auto;
+    }
+
+    #grow .right-half .content {
+        min-width: 100%;
+        height: auto;
+    }
+
+    #notify .left-half .content {
+        margin: 0 auto;
+        padding-top: 200px;
+        max-width: 100%;
+        height: 615px;
   }
 }
 
@@ -1012,7 +1058,7 @@
   	#notify .left-half .content {
     		margin: 0 auto;
     		max-width: 100%;
-    		height: 650px;
+    		height: 600px;
   	}
 
     #grow .right-half .content {
