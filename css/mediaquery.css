@@ -42,7 +42,8 @@
   }
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
     .card {
         width: 50%;
         padding: 40px 40px;
@@ -52,12 +53,46 @@
         box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
     }
 
+    .icon.hovered {
+        display: none;
+    }
+
     .lf-card {
         right: 10px;
     }
 
     .rt-card {
         left: 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+    .card .icon.hovered {
+        display: none;
+    } 
+
+    /*mouse hover changes card background*/
+    .card:hover {
+        background: #fcfcfc;
+        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+    }
+
+    /*mouse hovers card*/
+    .card:hover .link,
+    .card:hover h3,
+    .card:hover .learn {
+         color: #34a5be; 
+    }
+
+    /*default icon color*/
+    .card:hover .icon {
+        display: none;
+    }
+
+    .card:hover .icon.hovered {
+        display: inline-block;
+        text-align: center;
   }
 }
 
@@ -143,6 +178,8 @@
         font-size: .875em;
 	}
 }
+
+
 
 @media only screen and (max-width: 1024px) {
     #hero .content {
@@ -303,39 +340,16 @@
   }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
     #hero .content {
         position: absolute;
         top: 55px;
         left: 100px;
         /* text-align: left; */
     }
-    .card .icon.hovered {
+    .icon.hovered {
       display: none;
-    } 
-
-    /*mouse hover changes card background*/
-    .card:hover {
-        background: #fcfcfc;
-        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-    }
-
-    /*mouse hovers card*/
-    .card:hover .link,
-    .card:hover h3,
-    .card:hover .learn {
-         color: #34a5be; 
-    }
-
-    /*default icon color*/
-    .card:hover .icon {
-        display: none;
-    }
-
-    .card:hover .icon.hovered {
-        display: inline-block;
-        text-align: center;
   }
 }
 
@@ -344,6 +358,7 @@
   		  display: none;
   		
   	}
+
     .container {
         padding-right: 0;
         padding-left: 0;
@@ -511,6 +526,43 @@
     }
 }
 
+@media only screen and (min-width: 769px) {
+    .card .icon.hovered {
+        display: none;
+    } 
+
+    /*mouse hover changes card background*/
+    .card:hover {
+        background: #fcfcfc;
+        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+    }
+
+    /*mouse hovers card*/
+    .card:hover .link,
+    .card:hover h3,
+    .card:hover .learn {
+         color: #34a5be; 
+    }
+
+    /*default icon color*/
+    .card:hover .icon {
+        display: none;
+    }
+
+    .card:hover .icon.hovered {
+        display: inline-block;
+        text-align: center;
+  }
+}
+
+@media only screen and (min-device-width: 736px) and (max-device-width: 812px) and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .learn {
+      padding-bottom: 10vh;
+    }
+}
+
 @media only screen and (max-width: 667px) {
 	 .icon.hovered {
 		    display: none !important;
@@ -581,6 +633,8 @@
     		margin-top: 25px;
     		height: 350px;
     		width: 60%;
+        left: 0;
+        right: 0;
   	}
 
     .learn {
@@ -958,92 +1012,6 @@
 	}
 }
 
-@media only screen and (max-width: 320px) {
-    #hero {
-        padding-top: 30px; 
-        height: 0;
-   }
-
-    #hero .content {
-        margin-top: 7px;
-        display: block;
-   }
-
-    #hero p {
-        margin: 10px auto 0;
-        font-size: 1.375em;
-        width: 70%;
-   }
-
-    #hero h1 {
-        margin-top: 12px;
-        margin-bottom: 20px;
-        font-size: 1.7em;
-        width: 75%;
-        line-height: .975em;
-   }
-
-    #hero .button {
-        margin-top: 10px;
-        font-size: 1.125em;
-        margin-bottom: 0;
-        min-width: 60%;
-        position: relative;
-        display: inline-block;
-        vertical-align: middle;
-    }
-
-    #hero #btn-signin {
-        min-width: 51%;
-    }
-
-    .card {
-        height: 350px;
-        width: 296px;
-        background: #fcfcfc;
-        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-    }
-
-    .card:hover .icon.hovered {
-        display: none;
-    }
-
-    .card:hover .icon {
-        display: inline-block;
-    }
-
-    .card:hover, .icon.hovered {
-         display: inline-block;
-    }
-
-    .card .link {
-        bottom: 0;
-    }
-
-    #access .content {
-        min-width: 100vw;
-        height: auto;
-    }
-
-    #track .right-half .content {
-        min-width: 75vw;
-        height: auto;
-    }
-
-    #grow .right-half .content {
-        min-width: 100%;
-        height: auto;
-    }
-
-    #notify .left-half .content {
-        margin: 0 auto;
-        padding-top: 200px;
-        max-width: 100%;
-        height: 615px;
-  }
-}
-
 @media only screen and (min-width: 321px) and (max-width: 599px) {
   	.container {
     		padding-right: 0;
@@ -1086,6 +1054,7 @@
     #hero #btn-signin {
         min-width: 51%;
     }
+
     .icon.hovered {
       display: none;
     }
@@ -1168,6 +1137,120 @@
 
     #demo .container-demo {
         display: none;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+    #hero {
+        padding-top: 30px; 
+        height: 0;
+   }
+
+    #hero .content {
+        margin-top: 7px;
+        display: block;
+   }
+
+    #hero p {
+        margin: 10px auto 0;
+        font-size: 1.375em;
+        width: 70%;
+   }
+
+    #hero h1 {
+        margin-top: 12px;
+        margin-bottom: 20px;
+        font-size: 1.7em;
+        width: 75%;
+        line-height: .975em;
+   }
+
+    #hero .button {
+        margin-top: 10px;
+        font-size: 1.125em;
+        margin-bottom: 0;
+        min-width: 60%;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    #hero #btn-signin {
+        min-width: 51%;
+    }
+
+    .card {
+        height: 350px;
+        width: 296px;
+        background: #fcfcfc;
+        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+        left: 0;
+        right: 0;
+    }
+
+    .card:hover .icon.hovered {
+        display: none;
+    }
+
+    .card:hover .icon {
+        display: inline-block;
+    }
+
+    .card:hover, .icon.hovered {
+         display: inline-block;
+    }
+
+    .card .link {
+        bottom: 0;
+    }
+
+    #access .content {
+        min-width: 100vw;
+        height: auto;
+    }
+
+    #track .right-half .content {
+        min-width: 75vw;
+        height: auto;
+    }
+
+    #grow .right-half .content {
+        min-width: 100%;
+        height: auto;
+    }
+
+    #notify .left-half .content {
+        margin: 0 auto;
+        padding-top: 200px;
+        max-width: 100%;
+        height: 615px;
+    }
+
+    .mobile-demo a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        display: block;
+        background-position: center; 
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-image: url(../img/demo-video.jpg);
+        cursor: pointer;
+    } 
+
+    #demo .container-demo {
+        display: none;
+    }
+
+    #pricing {
+        margin-bottom: -190px;
   }
 }
 
