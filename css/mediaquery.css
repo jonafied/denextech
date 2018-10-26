@@ -2,23 +2,6 @@
 
 @media only screen and (max-width: 1920px) {
 	  #hero {
-<<<<<<< HEAD
-  	  display:flex;
-  	  color: #fff;
-  	  text-align: right;
-  	  font-family: Poppins, sans-serif;
-  	  padding: 0;
-  	  padding-top: 0;
-  	  min-height: 525px;
-  	  width: 100%;
-  	  background-image: url(../img/img-header.jpg);
-  	  background-position: center; 
-  	  background-repeat: no-repeat;
-  	  -webkit-background-size: cover;
-  	  -moz-background-size: cover;
-  	  -o-background-size: cover;
-  	  background-size: cover;
-=======
     	  display:flex;
     	  color: #fff;
     	  text-align: right;
@@ -43,7 +26,6 @@
         text-align: left;
         margin: 0 auto;
         margin-left: 10px;
->>>>>>> 84c23a5... header-video : (changed header to promo video, and added promo link on mobile only view)
     }
 
     .card {
@@ -72,7 +54,7 @@
 @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .card {
-        width: 50%;
+        width:;
         padding: 40px 40px;
         margin-top: 30px;
         background: #fcfcfc;
@@ -85,11 +67,11 @@
     }
 
     .lf-card {
-        right: 10px;
+        /* right: 10px; */
     }
 
     .rt-card {
-        left: 10px;
+        /* left: 10px; */
   }
 }
 
@@ -124,27 +106,6 @@
 }
 
 @media only screen and (max-width: 1200px) {
-<<<<<<< HEAD
-    #hero {
-    	  display:flex;
-    	  color: #fff;
-    	  text-align: right;
-    	  font-family: Poppins, sans-serif;
-    	  padding: 0;
-    	  padding-top: 0;
-    	  min-height: 475px;
-    	  width: 100%;
-    	  background-image: url(../img/img-header.jpg);
-    	  background-position: center; 
-    	  background-repeat: no-repeat;
-    	  -webkit-background-size: cover;
-    	  -moz-background-size: cover;
-    	  -o-background-size: cover;
-    	  background-size: cover;
-    }
-=======
->>>>>>> 84c23a5... header-video : (changed header to promo video, and added promo link on mobile only view)
-
     #hero .content {
     	  position: relative;
     	  top: 55px;
@@ -222,13 +183,9 @@
     }
 
     #hero .content {
-    	  position: relative;  
+    	  position: relative;
     	  top: 55px;
-<<<<<<< HEAD
-    	  left: 120px;
-=======
     	  left: 15px;
->>>>>>> 84c23a5... header-video : (changed header to promo video, and added promo link on mobile only view)
     	  text-align: left;
     	  margin-bottom: 0;
     }

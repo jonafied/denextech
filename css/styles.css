@@ -125,17 +125,6 @@ img {
 }
 
 #hero {
-<<<<<<< HEAD
-    display:flex;
-    color: #fff;
-    text-align: right;
-    font-family: Poppins, sans-serif;
-    padding: 0;
-    padding-top: 0;
-    min-height: 475px;
-    width: 100%;
-    background-image: url(../img/img-header.jpg);
-=======
     position: relative;
     width: 100%;
     height: 600px;
@@ -148,7 +137,6 @@ img {
     font-family: Poppins, sans-serif;
     padding: 0;
     padding-top: 0;
->>>>>>> 84c23a5... header-video : (changed header to promo video, and added promo link on mobile only view)
     background-position: center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -158,16 +146,14 @@ img {
 }
 
 #hero .content {
-<<<<<<< HEAD
-    position: relative;  
-    top: 55px;
-    left: 175px;
-=======
     position: relative;
     top: 30px;
     left: -236px;
->>>>>>> 84c23a5... header-video : (changed header to promo video, and added promo link on mobile only view)
     text-align: left;
+    z-index: 1;
+    margin: 0 auto;
+    right: 0;
+    float: left;
 }
 
 #hero p {
@@ -181,11 +167,8 @@ img {
     max-width: 45vw;
     font-size: 2.4vw;
     line-height: 1.1;
-<<<<<<< HEAD
-=======
     z-index: 1;
     text-shadow: 1px 1px 1px #000;
->>>>>>> 84c23a5... header-video : (changed header to promo video, and added promo link on mobile only view)
 }
 
 #hero .button {
@@ -209,13 +192,6 @@ img {
     color: rgba(31, 246, 246, .8);
 }
 
-<<<<<<< HEAD
-#hero .right-img {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 750px;
-=======
 .container-video {
     position: absolute;
     top: 0;
@@ -225,7 +201,6 @@ img {
     width: 100%;
     height: 100%;
     border: 0;
-
 }
 
 .promo a {
@@ -244,7 +219,6 @@ img {
     background: linear-gradient(to right, #8AD5F5 0%, #2A99BC 31.49%, #090B4B 100%);
     opacity: 1;*/
     /* z-index: -8; */
->>>>>>> 84c23a5... header-video : (changed header to promo video, and added promo link on mobile only view)
 }
 
 section {
@@ -573,33 +547,6 @@ section h3 {
 #grow .right-half .content {
     max-width: 80%;
     height: auto;
-}
-
-#demo {
-    position: relative;
-    height: 0;
-    padding-bottom: 56.25%;
-    text-align: center;
-    margin: auto;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-#demo .container-demo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-    display: block;
 }
 
 /*pricing*/
