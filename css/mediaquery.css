@@ -1,23 +1,32 @@
 /*media only screen*/
 
 @media only screen and (max-width: 1920px) {
-/*	  #hero {
-  	  display:flex;
-  	  color: #fff;
-  	  text-align: right;
-  	  font-family: Poppins, sans-serif;
-  	  padding: 0;
-  	  padding-top: 0;
-  	  min-height: 525px;
-  	  width: 100%;
-  	  background-image: url(../img/img-header.jpg);
-  	  background-position: center; 
-  	  background-repeat: no-repeat;
-  	  -webkit-background-size: cover;
-  	  -moz-background-size: cover;
-  	  -o-background-size: cover;
-  	  background-size: cover;
-    }*/
+	  #hero {
+    	  display:flex;
+    	  color: #fff;
+    	  text-align: right;
+    	  font-family: Poppins, sans-serif;
+    	  padding: 0;
+    	  padding-top: 0;
+    	  max-height: 650px;
+    	  min-height: 100%;
+    	  width: 100%;
+    	  background-position: center;
+    	  background-repeat: no-repeat;
+    	  -webkit-background-size: cover;
+    	  -moz-background-size: cover;
+    	  -o-background-size: cover;
+    	  background-size: cover;
+    }
+
+    #hero .content {
+        position: relative;
+        top: 55px;
+        left: 125px;
+        text-align: left;
+        margin: 0 auto;
+        margin-left: 10px;
+    }
 
     .card {
         position: relative;
@@ -97,29 +106,14 @@
 }
 
 @media only screen and (max-width: 1200px) {
-/*    #hero {
-    	  display:flex;
-    	  color: #fff;
-    	  text-align: right;
-    	  font-family: Poppins, sans-serif;
-    	  padding: 0;
-    	  padding-top: 0;
-    	  min-height: 475px;
-    	  width: 100%;
-    	  background-image: url(../img/img-header.jpg);
-    	  background-position: center; 
-    	  background-repeat: no-repeat;
-    	  -webkit-background-size: cover;
-    	  -moz-background-size: cover;
-    	  -o-background-size: cover;
-    	  background-size: cover;
-    }*/
 
     #hero .content {
-    	  position: relative;  
+    	  position: relative;
     	  top: 55px;
-    	  left: 140px;
+    	  left: 75px;
     	  text-align: left;
+    	  margin: 0 auto;
+    	  margin-left: 10px;
     }
 
     .card {
@@ -140,6 +134,9 @@
     		z-index: 1;
     		width: 45%;
     		height: auto;
+    }
+    .cards-buy  {
+        flex-wrap: nowrap;
     }
     
     .footer {
@@ -182,11 +179,16 @@
 
 
 @media only screen and (max-width: 1024px) {
+    #hero {
+        height: 50vh;
+    }
+
     #hero .content {
     	  position: relative;
     	  top: 55px;
-    	  left: -150px;
+    	  left: 15px;
     	  text-align: left;
+    	  margin-bottom: 0;
     }
 
     .card {
@@ -259,6 +261,12 @@
 }
 
 @media only screen and (max-width: 992px) {
+    #hero {
+      max-height: 40vh;
+      display: block;
+      position: relative;
+    }
+
     #hero .content {
         position: absolute;
     }
@@ -346,7 +354,6 @@
         position: absolute;
         top: 55px;
         left: 100px;
-        /* text-align: left; */
     }
     .icon.hovered {
       display: none;
@@ -354,6 +361,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+
+    #hero .container-video {
+        display: none;
+    }
+    
   	.icon.hovered {
   		  display: none;
   		
@@ -382,7 +394,7 @@
         top: auto;
         position: absolute;
         text-align: center;
-        margin-top: 100px;
+        margin-top: 50px;
         min-width: 100vw;
         display: block;
         float: none;
@@ -418,6 +430,16 @@
 
     #hero #btn-signin {
         max-width: 42%;
+    }
+
+    .promo a {
+        display: block;
+        font-size: 1.125em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        padding-top: 0;
+        font-weight: 400;
     }
     
     .card {
@@ -561,9 +583,17 @@
     .learn {
       padding-bottom: 10vh;
     }
+    
+    #hero .container-video {
+        display: none;
+  }
 }
 
 @media only screen and (max-width: 667px) {
+    #hero .container-video {
+        display: none;
+    }
+
 	 .icon.hovered {
 		    display: none !important;
 	 }
@@ -623,6 +653,16 @@
 
     #hero #btn-signin {
         max-width: 42%;
+    }
+
+    .promo a {
+        display: block;
+        font-size: 1.125em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        padding-top: 10px;
+        font-weight: 400;
     }
 
   	#features {
@@ -1024,7 +1064,7 @@
    }
 
   	#hero .content {
-    		margin-top: 20px;
+    		margin-top: -9px;
     		display: block;
    }
 
@@ -1053,6 +1093,16 @@
 
     #hero #btn-signin {
         min-width: 51%;
+    }
+
+    .promo a {
+        display: block;
+        font-size: 1.125em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        padding-top: 15px;
+        font-weight: 400;
     }
 
     .icon.hovered {
@@ -1117,7 +1167,7 @@
         bottom: 0;
     }
 
-    .mobile-demo a {
+/*    .mobile-demo a {
         position: absolute;
         top: 0;
         left: 0;
@@ -1133,9 +1183,9 @@
         background-size: cover;
         background-image: url(../img/demo-video.jpg);
         cursor: pointer;
-    } 
+    } */
 
-    #demo .container-demo {
+    #hero .container-video {
         display: none;
   }
 }
@@ -1227,7 +1277,7 @@
         height: 615px;
     }
 
-    .mobile-demo a {
+/*    .mobile-demo a {
         position: absolute;
         top: 0;
         left: 0;
@@ -1243,7 +1293,7 @@
         background-size: cover;
         background-image: url(../img/demo-video.jpg);
         cursor: pointer;
-    } 
+    } */
 
     #demo .container-demo {
         display: none;
