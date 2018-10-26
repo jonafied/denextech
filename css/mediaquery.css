@@ -28,19 +28,6 @@
         margin-left: 10px;
     }
 
-    .card {
-        position: relative;
-        display: inline-block;
-        padding: 30px 20px;
-        height: 350px;
-        -webkit-border-radius: 8px;
-        border-radius: 8px;
-        background: #fff;
-        text-align: center;
-        cursor: pointer;
-        margin-top: -20px;
-    }
-
     #track .track-info {
         position: absolute;
         top: -80px;
@@ -51,61 +38,25 @@
   }
 }
 
-@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .card {
-        width:;
-        padding: 40px 40px;
-        margin-top: 30px;
-        background: #fcfcfc;
-        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+@media only screen and (max-width: 1365px) and (min-width: 1200px){
+    #hero {
+    	  display:flex;
+    	  color: #fff;
+    	  text-align: right;
+    	  font-family: Poppins, sans-serif;
+    	  padding: 0;
+    	  padding-top: 0;
+    	  min-height: 475px;
+    	  width: 100%;
+    	  background-image: url(../img/img-header.jpg);
+    	  background-position: center; 
+    	  background-repeat: no-repeat;
+    	  -webkit-background-size: cover;
+    	  -moz-background-size: cover;
+    	  -o-background-size: cover;
+    	  background-size: cover;
     }
-
-    .icon.hovered {
-        display: none;
-    }
-
-    .lf-card {
-        /* right: 10px; */
-    }
-
-    .rt-card {
-        /* left: 10px; */
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-    .card .icon.hovered {
-        display: none;
-    } 
-
-    /*mouse hover changes card background*/
-    .card:hover {
-        background: #fcfcfc;
-        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-    }
-
-    /*mouse hovers card*/
-    .card:hover .link,
-    .card:hover h3,
-    .card:hover .learn {
-         color: #34a5be; 
-    }
-
-    /*default icon color*/
-    .card:hover .icon {
-        display: none;
-    }
-
-    .card:hover .icon.hovered {
-        display: inline-block;
-        text-align: center;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
+  
     #hero .content {
     	  position: relative;
     	  top: 55px;
@@ -113,12 +64,6 @@
     	  text-align: left;
     	  margin: 0 auto;
     	  margin-left: 10px;
-    }
-
-    .card {
-      	margin-bottom: 35px;
-      	width: 35%;
-      	height: 350px;
     }
 
     .box {
@@ -172,9 +117,8 @@
     .footer .copyright {
         text-align: left;
         font-size: .875em;
-	}
+	 }
 }
-
 
 
 @media only screen and (max-width: 1024px) {
@@ -188,27 +132,6 @@
     	  left: 15px;
     	  text-align: left;
     	  margin-bottom: 0;
-    }
-
-    .card {
-        width: 50%;
-        padding: 40px 40px;
-        margin-top: 30px;
-        background: #fcfcfc;
-        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-    }
-
-    .lf-card {
-        right: 10px;
-    }
-
-    .rt-card {
-        left: 10px;
-    }
-
-    .learn {
-        padding-bottom: 4vh;
     }
 
     #pricing {
@@ -268,18 +191,6 @@
 
     #hero .content {
         position: absolute;
-    }
-
-    .card {
-        width: 45%;
-        height: auto;
-        padding: 40px 50px;
-        margin-top: 0;
-        margin-bottom: 20px;
-    }
-
-    .card .link {
-      	bottom: 0;
     }
 
     #track .left-half .content,
@@ -354,22 +265,59 @@
         top: 55px;
         left: 100px;
     }
-    .icon.hovered {
-      display: none;
+    
+    #track .track-info {
+        position: absolute;
+        top: -10px;
+        left: 0;
+        z-index: 1;
+        width: 50%;
+        height: auto;
+    }
+
+    .footer {
+        padding: 70px 30px 20px;
+        font-size: 1em;
+    }
+
+    .footer .flex-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        margin-bottom: 30px;
+    }
+
+    .footer-contacts {
+        margin-left: 0;
+    }
+
+    .footer-contacts .col {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .footer .address {
+        margin-bottom: 20px;
+    }
+
+    .footer .copyright {
+        text-align: left;
+        font-size: .875em;
   }
 }
 
 @media only screen and (max-width: 768px) {
-
+  
     #hero .container-video {
         display: none;
     }
     
-  	.icon.hovered {
-  		  display: none;
-  		
-  	}
-
     .container {
         padding-right: 0;
         padding-left: 0;
@@ -430,7 +378,7 @@
     #hero #btn-signin {
         max-width: 42%;
     }
-
+  
     .promo a {
         display: block;
         font-size: 1.125em;
@@ -439,23 +387,6 @@
         color: #fff;
         padding-top: 0;
         font-weight: 400;
-    }
-    
-    .card {
-        width: 50%;
-        padding: 40px 40px;
-        margin-top: 30px;
-        background: #fcfcfc;
-        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-    }
-
-    .lf-card {
-        right: 10px;
-    }
-
-    .rt-card {
-        left: 10px;
     }
 
     #track .track-info {
@@ -547,40 +478,43 @@
     }
 }
 
-@media only screen and (min-width: 769px) {
-    .card .icon.hovered {
-        display: none;
-    } 
-
-    /*mouse hover changes card background*/
-    .card:hover {
-        background: #fcfcfc;
-        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-    }
-
-    /*mouse hovers card*/
-    .card:hover .link,
-    .card:hover h3,
-    .card:hover .learn {
-         color: #34a5be; 
-    }
-
-    /*default icon color*/
-    .card:hover .icon {
-        display: none;
-    }
-
-    .card:hover .icon.hovered {
-        display: inline-block;
-        text-align: center;
-  }
-}
-
 @media only screen and (min-device-width: 736px) and (max-device-width: 812px) and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
-    .learn {
-      padding-bottom: 10vh;
+
+    .footer {
+        padding: 70px 30px 20px;
+        font-size: 1em;
+    }
+
+    .footer .flex-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        margin-bottom: 30px;
+    }
+
+    .footer-contacts {
+        margin-left: 0;
+    }
+
+    .footer-contacts .col {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .footer .address {
+        margin-bottom: 20px;
+    }
+
+    .footer .copyright {
+        text-align: left;
+        font-size: .875em;
     }
     
     #hero .container-video {
@@ -589,14 +523,7 @@
 }
 
 @media only screen and (max-width: 667px) {
-    #hero .container-video {
-        display: none;
-    }
-
-	 .icon.hovered {
-		    display: none !important;
-	 }
-
+  
    .container {
     		padding-right: 0;
     		padding-left: 0;
@@ -667,18 +594,6 @@
   	#features {
   		  padding: 0 0 60px;
   	}
-
-  	.card {
-    		margin-top: 25px;
-    		height: 350px;
-    		width: 60%;
-        left: 0;
-        right: 0;
-  	}
-
-    .learn {
-        padding-bottom: 11vh;
-    }
 
   	section h3 {
   		  font-weight: 700;
@@ -964,17 +879,7 @@
   	.box .buy:hover {
   		  background: #6034be;
   	}
-
-  	.card {
-    		background: #fcfcfc;
-    		-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-    		box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-  	}
-
-    .card .link {
-        bottom: 0;
-    }
-
+  
   	#pricing-perks {
     		margin-top: 0;
     		padding: 60px 40px 0;
@@ -1048,7 +953,7 @@
   	.footer .copyright {
     		text-align: left;
     		font-size: .875em;
-	}
+	  } 
 }
 
 @media only screen and (min-width: 321px) and (max-width: 599px) {
@@ -1094,24 +999,6 @@
         min-width: 51%;
     }
 
-    .promo a {
-        display: block;
-        font-size: 1.125em;
-        text-transform: uppercase;
-        text-decoration: none;
-        color: #fff;
-        padding-top: 15px;
-        font-weight: 400;
-    }
-
-    .icon.hovered {
-      display: none;
-    }
-
-    .learn {
-        padding-bottom: 9vh;
-    }
-
     #pricing {
         margin-bottom: -190px;
     }
@@ -1149,59 +1036,9 @@
   		  left: 0;
   	}
 
-  	.card {
-    		height: 350px;
-    		width: 296px;
-    		background: #fcfcfc;
-    		-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-    		box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-  	}
-
-    .lf-card {
-        right: 0;
-    }
-
-    .rt-card {
-        left: 0;
-    }
-
-    .card:hover .icon.hovered {
-        display: none;
-    }
-
-    .card:hover .icon {
-        display: inline-block;
-    }
-
-    .card:hover, .icon.hovered {
-         display: inline-block;
-    }
-
-    .card .link {
-        bottom: 0;
-    }
-
-/*    .mobile-demo a {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-        display: block;
-        background-position: center; 
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-image: url(../img/demo-video.jpg);
-        cursor: pointer;
-    } */
-
     #hero .container-video {
         display: none;
-  }
+    }
 }
 
 @media only screen and (max-width: 320px) {
@@ -1243,32 +1080,6 @@
         min-width: 51%;
     }
 
-    .card {
-        height: 350px;
-        width: 296px;
-        background: #fcfcfc;
-        -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-        box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-        left: 0;
-        right: 0;
-    }
-
-    .card:hover .icon.hovered {
-        display: none;
-    }
-
-    .card:hover .icon {
-        display: inline-block;
-    }
-
-    .card:hover, .icon.hovered {
-         display: inline-block;
-    }
-
-    .card .link {
-        bottom: 0;
-    }
-
     #access .content {
         min-width: 100vw;
         height: auto;
@@ -1291,31 +1102,13 @@
         height: 615px;
     }
 
-/*    .mobile-demo a {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-        display: block;
-        background-position: center; 
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        background-image: url(../img/demo-video.jpg);
-        cursor: pointer;
-    } */
-
     #demo .container-demo {
         display: none;
     }
 
     #pricing {
         margin-bottom: -190px;
-  }
+    }
 }
 
 /*edge browser*/
@@ -1375,6 +1168,6 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-  }
+    }
 }
 

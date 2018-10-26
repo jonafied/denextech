@@ -298,6 +298,7 @@ section h3 {
 #features .flex-wrap {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
+    /* flex-wrap: nowrap; */
 }
 
 #features .container {

@@ -16,8 +16,7 @@
 		}
 }
 
-/*@media only screen and (min-width: 1366px) {
-
+@media only screen and (min-width: 1367px) {
 		.card .icon.hovered {
 				display: none;
 		} 
@@ -48,7 +47,7 @@
 				width: 25%;
 				height: 350px;
 	 }
-}*/
+}
 
 @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) 
 	and (-webkit-min-device-pixel-ratio: 2) {
