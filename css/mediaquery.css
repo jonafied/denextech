@@ -1,7 +1,7 @@
 /*media only screen*/
 
 @media only screen and (max-width: 1920px) {
-	  #hero {
+/*	  #hero {
   	  display:flex;
   	  color: #fff;
   	  text-align: right;
@@ -17,7 +17,7 @@
   	  -moz-background-size: cover;
   	  -o-background-size: cover;
   	  background-size: cover;
-    }
+    }*/
 
     .card {
         position: relative;
@@ -45,7 +45,7 @@
 @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     .card {
-        width: 50%;
+        width:;
         padding: 40px 40px;
         margin-top: 30px;
         background: #fcfcfc;
@@ -58,11 +58,11 @@
     }
 
     .lf-card {
-        right: 10px;
+        /* right: 10px; */
     }
 
     .rt-card {
-        left: 10px;
+        /* left: 10px; */
   }
 }
 
@@ -97,7 +97,7 @@
 }
 
 @media only screen and (max-width: 1200px) {
-    #hero {
+/*    #hero {
     	  display:flex;
     	  color: #fff;
     	  text-align: right;
@@ -113,7 +113,7 @@
     	  -moz-background-size: cover;
     	  -o-background-size: cover;
     	  background-size: cover;
-    }
+    }*/
 
     #hero .content {
     	  position: relative;  
@@ -183,9 +183,9 @@
 
 @media only screen and (max-width: 1024px) {
     #hero .content {
-    	  position: relative;  
+    	  position: relative;
     	  top: 55px;
-    	  left: 120px;
+    	  left: -150px;
     	  text-align: left;
     }
 
