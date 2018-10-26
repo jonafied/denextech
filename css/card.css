@@ -1,0 +1,307 @@
+/*media only screen for cards*/
+
+@media only screen and (max-width: 1920px) {
+
+		.card {
+				position: relative;
+				display: inline-block;
+				padding: 30px 20px;
+				height: 350px;
+				-webkit-border-radius: 8px;
+				border-radius: 8px;
+				background: #fff;
+				text-align: center;
+				cursor: pointer;
+				margin-top: -20px;
+		}
+}
+
+@media only screen and (min-width: 1367px) {
+
+		.card .icon.hovered {
+				display: none;
+		} 
+
+		.card:hover {
+				background: #fcfcfc;
+				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+		}
+
+		.card:hover .link,
+		.card:hover h3,
+		.card:hover .learn {
+				 color: #34a5be; 
+		}
+
+		.card:hover .icon {
+				display: none;
+		}
+
+		.card:hover .icon.hovered {
+				display: inline-block;
+				text-align: center;
+		}
+
+		.card {
+				margin-bottom: 35px;
+				width: 25%;
+				height: 350px;
+	 }
+}
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) 
+	and (-webkit-min-device-pixel-ratio: 2) {
+		
+		#features .flex-wrap {
+				flex-wrap: nowrap;
+		}
+
+		.card {
+				width: 100%;
+				padding: 40px 40px;
+				margin-top: 30px;
+				background: #fcfcfc;
+				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				margin: 5px;
+		}
+
+		.icon.hovered {
+				display: none;
+		}
+
+		.learn {
+				padding-bottom: 4vh;
+		}
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+		#features .flex-wrap {
+				flex-wrap: nowrap;
+		}
+
+		.card {
+				width: 24%;
+				padding: 40px 40px;
+				margin-top: 30px;
+				margin: 5px;
+		}
+
+		.card .icon.hovered {
+				display: none;
+		} 
+
+		.card:hover {
+				background: #fcfcfc;
+				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+		}
+
+		.card:hover .link,
+		.card:hover h3,
+		.card:hover .learn {
+				 color: #34a5be; 
+		}
+
+		.card:hover .icon {
+				display: none;
+		}
+
+		.card:hover .icon.hovered {
+				display: inline-block;
+				text-align: center;
+		}
+
+		.learn {
+				padding-bottom: 4vh;
+		}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1199px) {
+		.card {
+				width: 40%;
+				padding: 40px 40px;
+				margin-top: 30px;
+				margin: 5px;
+		}
+
+		.card .icon.hovered {
+				display: none;
+		} 
+
+		.card:hover {
+				background: #fcfcfc;
+				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+		}
+
+		.card:hover .link,
+		.card:hover h3,
+		.card:hover .learn {
+				 color: #34a5be; 
+		}
+
+		.card:hover .icon {
+				display: none;
+		}
+
+		.card:hover .icon.hovered {
+				display: inline-block;
+				text-align: center;
+		}
+
+		.learn {
+				padding-bottom: 4vh;
+		}
+}
+
+@media only screen and (max-width: 1024px) {
+
+		.icon.hovered {
+				display: none;
+		}
+
+		.card {
+				width: 40%;
+				padding: 40px 40px;
+				margin-top: 30px;
+				background: #fcfcfc;
+				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+		}
+
+		.learn {
+				padding-bottom: 5vh;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+		.icon.hovered {
+				display: none;
+		}
+
+		.card {
+				width: 45%;
+				height: auto;
+				padding: 40px 50px;
+				margin-top: 0;
+				margin-bottom: 20px;
+		}
+
+		.card .link {
+				bottom: 0;
+		}
+				
+		.learn {
+				padding-bottom: 4vh;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+		.icon.hovered {
+				display: none;
+		}
+		
+		.card {
+				width: 50%;
+				padding: 40px 40px;
+				margin-top: 30px;
+				background: #fcfcfc;
+				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+		}
+
+		.lf-card {
+				right: 10px;
+		}
+
+		.rt-card {
+				left: 10px;
+		}
+		.learn {
+				padding-bottom: 4vh;
+		}
+
+		.card .link {
+				bottom: 0;
+		}
+}
+
+@media only screen and (min-width: 736px) and (max-width: 812px) and (orientation: landscape) 
+	and (-webkit-min-device-pixel-ratio: 2) {
+
+		.icon.hovered {
+				display: none;
+		} 
+
+		.learn {
+				padding-bottom: 10vh;
+		}
+}
+
+@media only screen and (max-width: 667px) {
+	 .icon.hovered {
+				display: none !important;
+	 }
+
+		.card {
+				margin-top: 25px;
+				height: 350px;
+				width: 60%;
+				left: 0;
+				right: 0;
+		}
+
+		.learn {
+				padding-bottom: 11vh;
+		} 
+}
+
+@media only screen and (min-width: 321px) and (max-width: 599px) {
+		.icon.hovered {
+				display: none;
+		}
+
+		.card {
+				height: 350px;
+				width: 296px;
+				background: #fcfcfc;
+				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+		}
+
+		.learn {
+				padding-bottom: 9vh;
+		}
+
+		.lf-card {
+				right: 0;
+		}
+
+		.rt-card {
+				left: 0;
+		}
+
+		.card .link {
+				bottom: 0;
+		}
+}
+
+@media only screen and (max-width: 320px) {
+
+		.card {
+				height: 350px;
+				width: 296px;
+				background: #fcfcfc;
+				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				left: 0;
+				right: 0;
+		}
+
+		.card .link {
+				bottom: 0;
+		}
+}
+
