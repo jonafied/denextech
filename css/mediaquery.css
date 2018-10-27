@@ -67,7 +67,7 @@
 	 }
 }
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1199px) and (min-width: 1025px) {
     #track .track-info {
         position: absolute;
         top: -30px;
@@ -77,7 +77,11 @@
         height: auto;
     }
 
-        .footer {
+    .cards-buy  {
+        flex-wrap: nowrap;
+    }
+
+    .footer {
         padding: 70px 30px 20px;
         font-size: 1em;
     }
@@ -123,7 +127,7 @@
         padding: 0;
         padding-top: 0;
         height: 55vh;
-        min-height: 100%;
+        max-height: 480px;
         width: 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -139,6 +143,10 @@
     	  left: 15px;
     	  text-align: left;
     	  margin-bottom: 0;
+    }
+
+    #hero h1 {
+        text-shadow: 1px 1px 1px #090B4B;
     }
 
     #pricing {
@@ -177,7 +185,7 @@
         min-width: 50%;
     }
     .cards {
-        width: 89vw;
+        width: 92vw;
         height: auto;
         display: inline-block;
     }
@@ -264,6 +272,13 @@
         top: -50px;
     }
 
+    .cards {
+        width: 91vw;
+        height: auto;
+        display: inline-block;
+        margin-left: -5px;
+    }
+
     .footer {
         padding: 70px 30px 20px;
         font-size: 1em;
@@ -309,20 +324,6 @@
         left: 100px;
     }
 
-    #hero h1 {
-        text-shadow: none;
-    }
-
-    .promo a {
-        display: block;
-        font-size: 1em;
-        text-transform: uppercase;
-        text-decoration: none;
-        color: #fff;
-        padding-top: 0;
-        font-weight: 400;
-    }
-    
     #track .track-info {
         position: absolute;
         top: -10px;
@@ -330,6 +331,12 @@
         z-index: 1;
         width: 50%;
         height: auto;
+    }
+
+    .cards {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
     }
 
     .footer {
@@ -412,6 +419,7 @@
         font-size: 1.875em;
         margin: 0 auto;
         margin-bottom: 30px;
+        text-shadow: none;
     }
 
     #hero p {
@@ -501,6 +509,11 @@
         flex-wrap: nowrap;
     }
 
+    #trial h3 {
+        margin: 0 auto;
+        width: 90%;
+    }
+
     .footer {
         padding: 70px 30px 20px;
         font-size: 1em;
@@ -538,7 +551,68 @@
     }
 }
 
-@media only screen and (min-device-width: 736px) and (max-device-width: 812px) and (orientation: landscape) 
+@media only screen and (min-device-width: 812px) and (max-device-width: 812px) and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    #hero .container-video {
+        display: none;
+    }
+
+    #hero {
+        background-image: url(../img/mobile-header.jpg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100vh;
+        padding: 0;
+        padding-top: 0;
+        width: 100%;
+    }
+
+    #hero .content {  
+        position: absolute;
+        top: 40px;
+        left: 100px;
+    }
+
+    #hero h1 {
+        text-shadow: none;
+    }
+
+    #hero p {
+        margin-top: 30px;
+    }
+
+    #hero .button {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .promo a {
+        display: block;
+        font-size: 1em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        padding-top: -10px;
+        font-weight: 400;
+    }
+
+    .cards {
+        width: 100vw;
+        height: auto;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-device-width: 736px) and (max-device-width: 811px) and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
     #hero {
         background-image: url(../img/mobile-header.jpg);
@@ -559,13 +633,18 @@
         text-shadow: none;
     }
 
+    #hero .button {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+
     .promo a {
         display: block;
         font-size: 1em;
         text-transform: uppercase;
         text-decoration: none;
         color: #fff;
-        padding-top: 10px;
+        padding-top: -10px;
         font-weight: 400;
     }
 
