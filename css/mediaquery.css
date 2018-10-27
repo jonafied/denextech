@@ -182,7 +182,7 @@
 
     #trial h3 {
         margin: 0 auto;
-        min-width: 50%;
+        width: 80%;
     }
     .cards {
         width: 92vw;
@@ -334,7 +334,7 @@
     }
 
     .cards {
-        width: 100vw;
+        /* width: 100vw; */
         height: auto;
         display: inline-block;
     }
@@ -576,9 +576,9 @@
         width: 100%;
     }
 
-    #hero .content {  
+    #hero .content {
         position: absolute;
-        top: 40px;
+        top: 30px;
         left: 100px;
     }
 
@@ -1131,7 +1131,8 @@
 
   	#hero {
     		padding-top: 30px;
-    		height: 100vh; 
+    		min-height: 100vh;
+    		max-height: 100%;
    }
 
   	#hero .content {
@@ -1209,6 +1210,15 @@
     }
 }
 
+
+@media only screen and (min-device-width: 568px) and (max-device-width: 568px) and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #hero {
+        padding-top: 30px;
+        height: 165vh;
+  }
+}
+
 @media only screen and (max-width: 320px) {
     #hero {
         padding-top: 30px; 
@@ -1229,7 +1239,7 @@
     #hero h1 {
         margin-top: 12px;
         margin-bottom: 20px;
-        font-size: 1.7em;
+        font-size: 1.6em;
         width: 75%;
         line-height: .975em;
    }
