@@ -535,9 +535,20 @@
         -o-background-size: cover;
         background-size: cover;
         min-height: 65vh;
+        max-height: 100%;
         padding: 0;
         padding-top: 0;
         width: 100%;
+    }
+
+    .promo a {
+        display: block;
+        font-size: 1em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        padding-top: 10px;
+        font-weight: 400;
     }
 
     .footer {
@@ -646,7 +657,7 @@
         text-transform: uppercase;
         text-decoration: none;
         color: #fff;
-        padding-top: 10px;
+        padding-top: 15px;
         font-weight: 400;
     }
 
@@ -1023,7 +1034,7 @@
 
   	#hero {
     		padding-top: 40px;
-    		min-height: 98vh;
+    		height: 98vh; 
    }
 
   	#hero .content {
