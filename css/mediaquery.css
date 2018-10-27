@@ -308,6 +308,20 @@
         top: 55px;
         left: 100px;
     }
+
+    #hero h1 {
+        text-shadow: none;
+    }
+
+    .promo a {
+        display: block;
+        font-size: 1em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        padding-top: 0;
+        font-weight: 400;
+    }
     
     #track .track-info {
         position: absolute;
@@ -534,11 +548,15 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        min-height: 65vh;
+        height: 65vh;
         max-height: 100%;
         padding: 0;
         padding-top: 0;
         width: 100%;
+    }
+
+    #hero h1 {
+        text-shadow: none;
     }
 
     .promo a {
