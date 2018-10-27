@@ -38,25 +38,7 @@
   }
 }
 
-@media only screen and (max-width: 1365px) and (min-width: 1200px){
-    #hero {
-    	  display:flex;
-    	  color: #fff;
-    	  text-align: right;
-    	  font-family: Poppins, sans-serif;
-    	  padding: 0;
-    	  padding-top: 0;
-    	  min-height: 475px;
-    	  width: 100%;
-    	  background-image: url(../img/img-header.jpg);
-    	  background-position: center; 
-    	  background-repeat: no-repeat;
-    	  -webkit-background-size: cover;
-    	  -moz-background-size: cover;
-    	  -o-background-size: cover;
-    	  background-size: cover;
-    }
-  
+@media only screen and (max-width: 1365px) and (min-width: 1200px) {
     #hero .content {
     	  position: relative;
     	  top: 55px;
@@ -79,6 +61,7 @@
     		width: 45%;
     		height: auto;
     }
+
     .cards-buy  {
         flex-wrap: nowrap;
     }
@@ -120,10 +103,20 @@
 	 }
 }
 
+@media only screen and (max-width: 1199px) {
+    #track .track-info {
+        position: absolute;
+        top: -30px;
+        left: 0;
+        z-index: 1;
+        width: 45%;
+        height: auto;
+    }
+}
 
 @media only screen and (max-width: 1024px) {
     #hero {
-        height: 50vh;
+        height: 55vh;
     }
 
     #hero .content {
@@ -184,9 +177,9 @@
 
 @media only screen and (max-width: 992px) {
     #hero {
-      max-height: 40vh;
-      display: block;
-      position: relative;
+        height: 55vh;
+        display: block;
+        position: relative;
     }
 
     #hero .content {
@@ -313,6 +306,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+    #hero h1 {
+        text-shadow: none;
+    }
   
     #hero .container-video {
         display: none;
@@ -381,7 +377,7 @@
   
     .promo a {
         display: block;
-        font-size: 1.125em;
+        font-size: 1em;
         text-transform: uppercase;
         text-decoration: none;
         color: #fff;
@@ -480,6 +476,19 @@
 
 @media only screen and (min-device-width: 736px) and (max-device-width: 812px) and (orientation: landscape) 
   and (-webkit-min-device-pixel-ratio: 2) {
+    #hero {
+        background-image: url(../img/mobile-header.jpg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        min-height: 100vh;
+        padding: 0;
+        padding-top: 0;
+        width: 100vw;
+    }
 
     .footer {
         padding: 70px 30px 20px;
@@ -583,7 +592,7 @@
 
     .promo a {
         display: block;
-        font-size: 1.125em;
+        font-size: 1em;
         text-transform: uppercase;
         text-decoration: none;
         color: #fff;
@@ -963,13 +972,14 @@
   	}
 
   	#hero {
-    		padding-top: 40px; 
-    		height: 670px;
+    		padding-top: 40px;
+    		min-height: 98vh;
    }
 
   	#hero .content {
-    		margin-top: -9px;
+    		margin-top: 0;
     		display: block;
+    		/* height: 91vh; */
    }
 
   	#hero p {
@@ -1048,7 +1058,7 @@
    }
 
     #hero .content {
-        margin-top: 7px;
+        margin-top: 0px;
         display: block;
    }
 
