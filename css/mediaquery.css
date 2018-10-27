@@ -534,10 +534,10 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        min-height: 100vh;
+        min-height: 65vh;
         padding: 0;
         padding-top: 0;
-        width: 100vw;
+        width: 100%;
     }
 
     .footer {
