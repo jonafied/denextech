@@ -1051,8 +1051,8 @@
   	}
 
   	#hero {
-    		padding-top: 40px;
-    		height: 98vh; 
+    		padding-top: 30px;
+    		height: 100vh; 
    }
 
   	#hero .content {
@@ -1062,7 +1062,7 @@
    }
 
   	#hero p {
-    		margin: 35px auto 0;
+    		margin: 30px auto 0;
     		font-size: 1.375em;
     		width: 70%;
    }
