@@ -168,7 +168,7 @@ img {
     font-size: 2.4vw;
     line-height: 1.1;
     z-index: 1;
-    text-shadow: .5px .5px .5px #090B4B;
+    text-shadow: 2px 2px 13px rgba(9, 11, 75, 1);
 }
 
 #hero .button {
