@@ -161,7 +161,11 @@
 		}
 
 		.cards-buy  {
+				display: flex;
 				flex-wrap: nowrap;
+				flex-direction: row;
+				justify-content: center;
+				width: 92vw;
 		}
 
 		.footer {
@@ -269,16 +273,13 @@
 				margin: 0 auto;
 				width: 80%;
 		}
-		.cards {
-				width: 92vw;
-				height: auto;
-				display: inline-block;
-		}
 
 		.cards-buy {
 				display: flex;
 				flex-direction: row;
 				flex-wrap: nowrap;
+				justify-content: center;
+				width: 92vw;
 		}
 
 		.footer {
@@ -398,11 +399,12 @@
 				top: -50px;
 		}
 
-		.cards {
-				width: 91vw;
-				height: auto;
-				display: inline-block;
-				margin-left: -5px;
+		.cards-buy {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				justify-content: center;
+				width: 100%;
 		}
 
 		.footer {
