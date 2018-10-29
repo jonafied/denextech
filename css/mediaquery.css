@@ -235,7 +235,7 @@
 		}
 
 		#hero h1 {
-				text-shadow: .5px .5px .5px #090B4B;
+				text-shadow: 2px 2px 13px rgba(9, 11, 75, 1);
 		}
 
 		#pricing {
