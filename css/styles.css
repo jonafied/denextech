@@ -745,8 +745,11 @@ section h3 {
 
 .footer .copyright {
     margin-top: 40px;
-    text-align: right;
     font-size: .75em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 207px;
 }
 
 .flex-wrap {
