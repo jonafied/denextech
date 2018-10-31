@@ -30,7 +30,7 @@
 
 		#track .track-info {
 				position: absolute;
-				top: -80px;
+				top: 0;
 				left: 0;
 				z-index: 1;
 				width: 50%;
@@ -68,11 +68,37 @@
 
 		#track .track-info {
 				position: absolute;
-				top: -80px;
+				top: 0;
 				left: 0;
 				z-index: 1;
 				width: 50%;
 				height: auto;
+	}
+}
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) 
+	and (-webkit-min-device-pixel-ratio: 2) {
+		#hero {
+				display:flex;
+				color: #fff;
+				text-align: right;
+				font-family: Poppins, sans-serif;
+				padding: 0;
+				padding-top: 0;
+				height: 70vh;
+				min-height: 100%;
+				width: 100%;
+				background-position: center;
+				background-repeat: no-repeat;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+		}	
+
+		#features {
+    		padding: 20px 50px;
+    		padding-bottom: 50px;
 	}
 }
 
@@ -111,7 +137,7 @@
 
 		#track .track-info {
 				position: absolute;
-				top: -30px;
+				top: 0;
 				left: 0;
 				z-index: 1;
 				width: 45%;
@@ -153,7 +179,7 @@
 
 		#track .track-info {
 				position: absolute;
-				top: -30px;
+				top: 0;
 				left: 0;
 				z-index: 1;
 				width: 45%;
@@ -356,11 +382,12 @@
 				overflow: hidden;
 				width: 80%;
 				height: 330px;
-				background-image: url(../img/img-track.png); 
+				background-image: url(../img/img-track.png);
 				background-position: top right;
 				-webkit-background-size: cover;
 				background-size: cover;
 				background-repeat: no-repeat;
+				top: 0;
 		}
 
 		#track .left-half img {
@@ -507,6 +534,11 @@
 }
 
 @media only screen and (max-width: 849px) and (min-width: 769px) {
+		#grow .right-half .content {
+		    max-width: 100%;
+		    height: auto;
+  	}
+
 		.footer {
 				padding: 70px 30px 20px;
 				font-size: 1em;
@@ -631,17 +663,20 @@
 		}
 
 		.section-info .content {
-				max-width: 100%;
+				/*max-width: 100%;*/
 				height: auto;
+				padding: 0;
 		}
 
 		#access .content {
-				max-width: 40%;
 				height: auto;
+				padding: 0;
 		}
 
-		#access, #track, #grow, #notify {
-				height: 440px;
+		#access, #grow {
+		padding-top: 20px;
+		padding-bottom: 20px;
+
 		}
 
 		#notify .left-half .content {
@@ -973,6 +1008,11 @@
 				max-width: 100%;
 		}
 
+		#access, #grow {
+				padding-top: 0;
+				padding-bottom: 0;
+		}
+
 		#access .left-half {
 				-webkit-box-ordinal-group: 3;
 				-webkit-order: 2;
@@ -1045,7 +1085,7 @@
 		#notify .left-half .content {
 				margin: 0 auto;
 				padding-top: 200px;
-				max-width: 100%;
+				max-width: 85%;
 				height: 575px;
 		}
 
@@ -1348,8 +1388,13 @@
 
 		#notify .left-half .content {
 				margin: 0 auto;
-				max-width: 100%;
+				max-width: 85%;
 				height: 600px;
+		}
+
+		#access, #grow {
+			padding-top: 0;
+			padding-bottom: 0;
 		}
 
 		#grow .right-half .content {
@@ -1433,6 +1478,11 @@
 				height: auto;
 		}
 
+		#access, #grow {
+				padding-top: 0;
+				padding-bottom: 0;
+		}
+
 		#track .right-half .content {
 				min-width: 75vw;
 				height: auto;
@@ -1446,7 +1496,7 @@
 		#notify .left-half .content {
 				margin: 0 auto;
 				padding-top: 200px;
-				max-width: 100%;
+				max-width: 85%;
 				height: 615px;
 		}
 
