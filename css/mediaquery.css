@@ -747,7 +747,11 @@
     #hero {
 				height: 39vh;
 				min-height: 100%;
-	
+		}
+
+		#grow .right-half .content {
+				max-width: 100%;
+				height: auto;
 		}
 }
 
