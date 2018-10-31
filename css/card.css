@@ -262,9 +262,9 @@
 }
 
 @media only screen and (max-width: 768px) {
-		.icon.hovered {
+/*		.icon.hovered {
 				display: none;
-		}
+		}*/
 		
 		.card {
 				width: 47%;
@@ -294,9 +294,9 @@
 @media only screen and (min-width: 736px) and (max-width: 812px) and (orientation: landscape) 
 	and (-webkit-min-device-pixel-ratio: 2) {
 
-		.icon.hovered {
+/*		.icon.hovered {
 				display: none;
-		} 
+		} */
 
 		.learn {
 				padding-bottom: 5vh;
@@ -322,9 +322,9 @@
 }
 
 @media only screen and (min-width: 321px) and (max-width: 599px) {
-		.icon.hovered {
+/*		.icon.hovered {
 				display: none;
-		}
+		}*/
 
 		.card {
 				height: 350px;
