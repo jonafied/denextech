@@ -273,7 +273,7 @@ section.section-info .right-half img {
 section.section-info .left-half.fw-content {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 48%;
     width: 85%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -300,6 +300,7 @@ section h3 {
 
 #features {
     padding: 20px 50px;
+    padding-bottom: 40px;
 }
 
 #features .flex-wrap {
@@ -483,7 +484,7 @@ section h3 {
 }
 
 #access .content {
-    max-width: 28%;
+    max-width: 40%;
     height: auto;
 }
 
@@ -501,7 +502,7 @@ section h3 {
 
 #track .track-info {
     position: absolute;
-    top: -80px;
+    top: 0;
     left: 0;
     z-index: 1;
     width: 45%;
@@ -534,11 +535,11 @@ section h3 {
 }
 
 #notify .left-half {
-    padding-left: 35px;
+    /* padding-left: 35px; */
 }
 
 #notify .left-half .content {
-    max-width: 36%;
+    max-width: 40%;
     height: auto;
 }
 
@@ -555,6 +556,7 @@ section h3 {
 #grow .right-half .content {
     max-width: 80%;
     height: auto;
+    /* padding: 0; */
 }
 
 /*pricing*/
