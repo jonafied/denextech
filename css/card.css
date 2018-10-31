@@ -16,7 +16,7 @@
 		}
 }
 
-@media only screen and (min-width: 1367px) {
+@media only screen and (min-width: 1366px) {
 		.card .icon.hovered {
 				display: none;
 		} 
@@ -157,17 +157,42 @@
 
 @media only screen and (max-width: 1024px) {
 
-		.icon.hovered {
+/*		.icon.hovered {
 				display: none;
-		}
+		}*/
 
 		.card {
 				width: 40%;
 				padding: 40px 40px;
 				margin-top: 30px;
+/*				background: #fcfcfc;
+				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);*/
+		}
+
+		.card .icon.hovered {
+				display: none;
+		} 
+
+		.card:hover {
 				background: #fcfcfc;
 				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
 				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+		}
+
+		.card:hover .link,
+		.card:hover h3,
+		.card:hover .learn {
+				 color: #34a5be; 
+		}
+
+		.card:hover .icon {
+				display: none;
+		}
+
+		.card:hover .icon.hovered {
+				display: inline-block;
+				text-align: center;
 		}
 
 		.learn {
@@ -240,9 +265,9 @@
 }
 
 @media only screen and (max-width: 667px) {
-	 .icon.hovered {
+/*	 .icon.hovered {
 				display: none !important;
-	 }
+	 }*/
 
 		.card {
 				margin-top: 25px;
