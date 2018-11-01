@@ -16,7 +16,7 @@
 		}
 }
 
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1367px) {
 		.card .icon.hovered {
 				display: none;
 		} 
@@ -157,20 +157,17 @@
 
 @media only screen and (max-width: 1024px) {
 
-/*		.icon.hovered {
+		.icon.hovered {
 				display: none;
-		}*/
+		}
 
 		.card {
 				width: 40%;
 				padding: 40px 40px;
 				margin-top: 30px;
-/*				background: #fcfcfc;
-				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);*/
 		}
 
-		.card .icon.hovered {
+/*		.card .icon.hovered {
 				display: none;
 		} 
 
@@ -193,7 +190,7 @@
 		.card:hover .icon.hovered {
 				display: inline-block;
 				text-align: center;
-		}
+		}*/
 
 		.learn {
 				padding-bottom: 7vh;
@@ -201,9 +198,9 @@
 }
 
 @media only screen and (max-width: 992px) {
-		.icon.hovered {
+	/*	.icon.hovered {
 				display: none;
-		}
+		}*/
 
 		.card {
 				width: 45%;
@@ -223,7 +220,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-/*		.icon.hovered {
+	/*	.icon.hovered {
 				display: none;
 		}*/
 		
@@ -255,7 +252,7 @@
 @media only screen and (min-width: 736px) and (max-width: 812px) and (orientation: landscape) 
 	and (-webkit-min-device-pixel-ratio: 2) {
 
-/*		.icon.hovered {
+		/*.icon.hovered {
 				display: none;
 		} */
 
@@ -265,9 +262,9 @@
 }
 
 @media only screen and (max-width: 667px) {
-/*	 .icon.hovered {
+	 .icon.hovered {
 				display: none !important;
-	 }*/
+	 }
 
 		.card {
 				margin-top: 25px;
@@ -329,3 +326,16 @@
 		}
 }
 
+
+/*1. on window.load check if touch 
+2. if touch then on element by id get cards 
+3. add/remove hover class*/
+
+@media (pointer:coarse) {
+	.icon.hovered {
+			display: none;
+		}
+		.test {
+			color: red;
+		}
+}
