@@ -243,6 +243,14 @@
    <!-- Mobile Touchstart -->
    <script>
 	    $(document).ready(function() {
+	    	$(".card-container").on('touchstart', function() {
+	    		var element = $(this);
+	    		var cards = element.find('.card');
+	    		if(cards.children) {
+	    		$('img.hovered', cards).remove();
+	    		$('img.icon', cards).addClass('override');
+	    		}
+	    	})
 			  $("a").on("click taphold", function(e) {
 			    var el = $(this);
 			    var link = el.attr("href");
