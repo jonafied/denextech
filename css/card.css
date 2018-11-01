@@ -260,6 +260,32 @@
 				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
 		}
 
+		.card .icon.hovered {
+				display: none;
+		} 
+
+		.card:hover {
+				background: #fcfcfc;
+				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+		}
+
+		.card:hover .link,
+		.card:hover h3,
+		.card:hover .learn {
+				 color: #34a5be; 
+		}
+
+		.card:hover .icon {
+				display: none;
+		}
+
+		.card:hover .icon.hovered {
+				display: inline-block;
+				text-align: center;
+		}
+
+
 		.lf-card {
 				right: 10px;
 		}
@@ -279,35 +305,19 @@
 @media only screen and (min-width: 736px) and (max-width: 812px) and (orientation: landscape) 
 	and (-webkit-min-device-pixel-ratio: 2) {
 
-		.card {
-				width: 50%;
-				padding: 40px 40px;
-				margin-top: 30px;
-				background: #fcfcfc;
-				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-		}
+		/*.icon.hovered {
+				display: none;
+		} */
 
-		.lf-card {
-				right: 10px;
-		}
-
-		.rt-card {
-				left: 10px;
-		}
 		.learn {
 				padding-bottom: 5vh;
-		}
-
-		.card .link {
-				bottom: 0;
 		}
 }
 
 @media only screen and (max-width: 667px) {
-/*	 .icon.hovered {
+	 .icon.hovered {
 				display: none !important;
-	 }*/
+	 }
 
 		.card {
 				margin-top: 25px;
@@ -315,30 +325,6 @@
 				width: 60%;
 				left: 0;
 				right: 0;
-		}
-
-/*		.card {
-				width: 50%;
-				padding: 40px 40px;
-				margin-top: 30px;
-				background: #fcfcfc;
-				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
-		}*/
-
-		.lf-card {
-				right: 10px;
-		}
-
-		.rt-card {
-				left: 10px;
-		}
-		.learn {
-				padding-bottom: 5vh;
-		}
-
-		.card .link {
-				bottom: 0;
 		}
 
 		.learn {
