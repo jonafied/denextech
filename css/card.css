@@ -1,5 +1,9 @@
 /*media only screen for cards*/
 
+.override {
+		display: inline-block !important;
+}
+
 @media only screen and (max-width: 1920px) {
 
 		.card {
@@ -16,7 +20,7 @@
 		}
 }
 
-@media only screen and (min-width: 1367px) {
+@media only screen and (min-width: 1366px) {
 		.card .icon.hovered {
 				display: none;
 		} 
@@ -236,7 +240,6 @@
 				text-align: center;
 		}
 
-
 		.card .link {
 				bottom: 0;
 		}
@@ -284,8 +287,7 @@
 				display: inline-block;
 				text-align: center;
 		}
-
-
+  
 		.lf-card {
 				right: 10px;
 		}
@@ -309,15 +311,40 @@
 				display: none;
 		} */
 
+		.card .icon.hovered {
+				display: none;
+		} 
+
+		.card:hover {
+				background: #fcfcfc;
+				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+		}
+
+		.card:hover .link,
+		.card:hover h3,
+		.card:hover .learn {
+				 color: #34a5be; 
+		}
+
+		.card:hover .icon {
+				display: none;
+		}
+
+		.card:hover .icon.hovered {
+				display: inline-block;
+				text-align: center;
+		}
+
 		.learn {
 				padding-bottom: 5vh;
 		}
 }
 
 @media only screen and (max-width: 667px) {
-	 .icon.hovered {
+/* 	 .icon.hovered {
 				display: none !important;
-	 }
+	 } */
 
 		.card {
 				margin-top: 25px;
@@ -327,6 +354,31 @@
 				right: 0;
 		}
 
+		.card .icon.hovered {
+				display: none;
+		} 
+
+		.card:hover {
+				background: #fcfcfc;
+				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+		}
+
+		.card:hover .link,
+		.card:hover h3,
+		.card:hover .learn {
+				 color: #34a5be; 
+		}
+
+		.card:hover .icon {
+				display: none;
+		}
+
+		.card:hover .icon.hovered {
+				display: inline-block;
+				text-align: center;
+		}
+  
 		.learn {
 				padding-bottom: 11vh;
 		} 
@@ -343,6 +395,31 @@
 				background: #fcfcfc;
 				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
 				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+		}
+
+		.card .icon.hovered {
+				display: none;
+		} 
+
+		.card:hover {
+				background: #fcfcfc;
+				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+		}
+
+		.card:hover .link,
+		.card:hover h3,
+		.card:hover .learn {
+				 color: #34a5be; 
+		}
+
+		.card:hover .icon {
+				display: none;
+		}
+
+		.card:hover .icon.hovered {
+				display: inline-block;
+				text-align: center;
 		}
 
 		.learn {
@@ -372,6 +449,31 @@
 				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
 				left: 0;
 				right: 0;
+		}
+
+		.card .icon.hovered {
+				display: none;
+		} 
+
+		.card:hover {
+				background: #fcfcfc;
+				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+		}
+
+		.card:hover .link,
+		.card:hover h3,
+		.card:hover .learn {
+				 color: #34a5be; 
+		}
+
+		.card:hover .icon {
+				display: none;
+		}
+
+		.card:hover .icon.hovered {
+				display: inline-block;
+				text-align: center;
 		}
 
 		.card .link {
