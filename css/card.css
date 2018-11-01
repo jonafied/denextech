@@ -44,8 +44,9 @@
 
 		.card {
 				margin-bottom: 35px;
-				width: 25%;
+				width: 24%;
 				height: 350px;
+				margin-right: 1px;
 	 }
 }
 
@@ -157,9 +158,9 @@
 
 @media only screen and (max-width: 1024px) {
 
-		.icon.hovered {
+/*		.icon.hovered {
 				display: none;
-		}
+		}*/
 
 		.card {
 				width: 40%;
@@ -167,7 +168,7 @@
 				margin-top: 30px;
 		}
 
-/*		.card .icon.hovered {
+		.card .icon.hovered {
 				display: none;
 		} 
 
@@ -190,7 +191,7 @@
 		.card:hover .icon.hovered {
 				display: inline-block;
 				text-align: center;
-		}*/
+		}
 
 		.learn {
 				padding-bottom: 7vh;
@@ -209,6 +210,32 @@
 				margin-top: 0;
 				margin-bottom: 20px;
 		}
+
+		.card .icon.hovered {
+				display: none;
+		} 
+
+		.card:hover {
+				background: #fcfcfc;
+				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+		}
+
+		.card:hover .link,
+		.card:hover h3,
+		.card:hover .learn {
+				 color: #34a5be; 
+		}
+
+		.card:hover .icon {
+				display: none;
+		}
+
+		.card:hover .icon.hovered {
+				display: inline-block;
+				text-align: center;
+		}
+
 
 		.card .link {
 				bottom: 0;
@@ -232,6 +259,32 @@
 				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
 				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
 		}
+
+		.card .icon.hovered {
+				display: none;
+		} 
+
+		.card:hover {
+				background: #fcfcfc;
+				-webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+				box-shadow: 0 20px 40px rgba(0, 0, 0, .14);
+		}
+
+		.card:hover .link,
+		.card:hover h3,
+		.card:hover .learn {
+				 color: #34a5be; 
+		}
+
+		.card:hover .icon {
+				display: none;
+		}
+
+		.card:hover .icon.hovered {
+				display: inline-block;
+				text-align: center;
+		}
+
 
 		.lf-card {
 				right: 10px;
@@ -326,16 +379,8 @@
 		}
 }
 
-
-/*1. on window.load check if touch 
-2. if touch then on element by id get cards 
-3. add/remove hover class*/
-
 @media (pointer:coarse) {
 	.icon.hovered {
 			display: none;
-		}
-		.test {
-			color: red;
 		}
 }
