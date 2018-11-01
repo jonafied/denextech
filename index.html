@@ -48,7 +48,7 @@
 							</div>			
 					</div>
 			</section>
-			
+			<div class="test">testing mouse vs finger</div>
 			<section id="features">
 				<div class="feature-info">
 					<div class="flex-wrap">
@@ -244,7 +244,7 @@
    <!-- Mobile Touchstart -->
    <script>
 	    $(document).ready(function() {
-			  $("a").on("mousedown touchstart", function(e) {
+			  $("a").on("click touchend", function(e) {
 			    var el = $(this);
 			    var link = el.attr("href");
 			    window.location = link;
