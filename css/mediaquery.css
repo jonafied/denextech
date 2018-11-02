@@ -1341,7 +1341,7 @@
 				width: 100%;
 				padding-top: 30px;
 				/* min-height: 100vh; */
-				max-height: 100%;
+				/*max-height: 100%;*/
 		}
 
 		#hero .content {
@@ -1450,7 +1450,7 @@
 				width: 100%;
 				padding-top: 40px;
 				min-height: 100vh;
-				max-height: 100%;
+				/*max-height: 100%;*/
 		}
 
 		#hero .content {
