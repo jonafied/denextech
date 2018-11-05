@@ -1,6 +1,6 @@
 /*media only screen*/
 
-@media only screen and (max-width: 1920px) and (min-width: 1600px) {
+@media only screen and (max-width: 1950px) and (min-width: 1600px) {
 		.container {
 		    margin: 0 auto;
 		    padding-left: 125px;
@@ -15,7 +15,7 @@
 				font-family: Poppins, sans-serif;
 				padding: 0;
 				padding-top: 0;
-				max-height: 650px;
+				height: 75vh;
 				min-height: 100%;
 				width: 100%;
 				background-position: center;
@@ -29,7 +29,7 @@
 		#hero .content {
 				position: relative;
 				top: 0;
-				left: 125px;
+				left: 110px;
 				text-align: left;
 				margin: 0 auto;
 				margin-left: 10px;
@@ -67,8 +67,8 @@
 
 		#hero .content {
 				position: relative;
-				top: 30px;
-				left: 125px;
+				top: 10px;
+				left: 110px;
 				text-align: left;
 				margin: 0 auto;
 				margin-left: 10px;
@@ -118,7 +118,7 @@
 				font-family: Poppins, sans-serif;
 				padding: 0;
 				padding-top: 0;
-				height: 67vh;
+				height: 63vh;
 				min-height: 100%;
 				width: 100%;
 				background-position: center;
@@ -131,7 +131,7 @@
 
 		#hero .content {
 				position: relative;
-				top: 30px;
+				top: 25px;
 				left: 100px;
 				text-align: left;
 				margin: 0 auto;
@@ -165,7 +165,7 @@
 				font-family: Poppins, sans-serif;
 				padding: 0;
 				padding-top: 0;
-				height: 57vh;
+				height: 55vh;
 				min-height: 100%;
 				width: 100%;
 				background-position: center;
@@ -249,7 +249,7 @@
 				font-family: Poppins, sans-serif;
 				padding: 0;
 				padding-top: 0;
-				height: 60vh;
+				height: 45vh;
 				min-height: 100%;
 				width: 100%;
 				background-position: center;
