@@ -158,6 +158,7 @@ img {
     margin: 0 auto;
     right: 0;
     float: left;
+    display: inline;
 }
 
 #hero p {
