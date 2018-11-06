@@ -159,6 +159,7 @@ img {
     right: 0;
     float: left;
     display: inline;
+    width: 100%;
 }
 
 #hero p {
