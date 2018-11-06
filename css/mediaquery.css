@@ -126,7 +126,7 @@
 				font-family: Poppins, sans-serif;
 				padding: 0;
 				padding-top: 0;
-				height: 60vh;
+				height: 70vh;
 				min-height: auto;
 				max-height: auto;
 				width: 100%;
@@ -654,6 +654,10 @@
 				margin-bottom: 0;
 				top: 15px;
 				margin-left: -15px;
+		}
+
+		#hero h1 {
+				margin-top: -15px;
 		}
 		
 		#hero .button {
