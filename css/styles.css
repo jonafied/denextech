@@ -134,7 +134,7 @@ img {
 #hero {
     position: relative;
     width: 100%;
-    /* max-height: 650px; */
+    height: 650px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -149,6 +149,7 @@ img {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    -ms-background-size: cover;
     background-size: cover;
 }
 
@@ -157,7 +158,6 @@ img {
     margin: 0 auto;
     right: 0;
     float: left;
-    min-width: 430px;
 }
 
 #hero p {
@@ -168,7 +168,7 @@ img {
 }
 
 #hero h1 {
-    max-width: 45vw;
+    max-width: 40vw;
     font-size: 2.4vw;
     line-height: 1.1;
     z-index: 1;
@@ -200,7 +200,6 @@ img {
     top: 0;
     bottom: 0;
     left: 0;
-    width: 100%;
     display: block;
     width: 100%;
     height: 100%;
@@ -284,6 +283,7 @@ section h3 {
 #features {
     padding: 20px 50px;
     padding-bottom: 40px;
+    padding-top: 0;
 }
 
 #features .flex-wrap {
