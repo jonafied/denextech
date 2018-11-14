@@ -50,9 +50,7 @@
 		.container {
 				width: 1570px;
 		}
-}
 
-@media only screen and (min-width: 1400px) {
 		#hero {
 				display:flex;
 				color: #fff;
@@ -60,7 +58,7 @@
 				font-family: Poppins, sans-serif;
 				padding: 0;
 				padding-top: 0;
-				height: 70vh;
+				height: 100%;
 				min-height: auto;
 				max-height: auto;
 				width: 100%;
@@ -71,10 +69,32 @@
 				-o-background-size: cover;
 				background-size: cover;
 		}
+}
+
+@media only screen and (min-width: 1400px) {
+		#hero {
+				display:flex;
+				color: #fff;
+				text-align: right;
+				font-family: Poppins, sans-serif;
+				padding: 0;
+				padding-top: 0;
+				height: 100%;
+				min-height: auto;
+				max-height: auto;
+				width: 100%;
+				background-position: center;
+				background-repeat: no-repeat;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				padding-bottom: 65px !important;
+		}
 
 		#hero .content {
 				position: relative;
-				top: 10px;
+				top: 30px;
 				left: 110px;
 				text-align: left;
 				margin: 0 auto;
@@ -126,7 +146,7 @@
 				font-family: Poppins, sans-serif;
 				padding: 0;
 				padding-top: 0;
-				height: 65vh;
+				height: 100%;
 				min-height: auto;
 				max-height: auto;
 				width: 100%;
@@ -136,6 +156,7 @@
 				-moz-background-size: cover;
 				-o-background-size: cover;
 				background-size: cover;
+				padding-bottom: 50px;
 		}
 
 		#hero .content {
@@ -174,7 +195,7 @@
 				font-family: Poppins, sans-serif;
 				padding: 0;
 				padding-top: 0;
-				height: 75vh;
+				height: 100%;
 				min-height: auto;
 				max-height: auto;
 				width: 100%;
@@ -184,6 +205,7 @@
 				-moz-background-size: cover;
 				-o-background-size: cover;
 				background-size: cover;
+				padding-bottom: 50px;
 		}
 }
 
@@ -195,7 +217,7 @@
 				font-family: Poppins, sans-serif;
 				padding: 0;
 				padding-top: 0;
-				height: 65vh;
+				height: 100%;
 				min-height: auto;
 				max-height: auto;
 				width: 100%;
@@ -328,8 +350,8 @@
 				padding: 0;
 				padding-top: 0;
 				height: 100%;
-				min-height: auto;
-				max-height: auto;
+				min-height: 100%;
+				max-height: 100%;
 				width: 100%;
 				background-position: center;
 				background-repeat: no-repeat;
@@ -437,9 +459,9 @@
 
 @media only screen and (max-width: 992px) {
 		#hero {
-				height: 50vh;
-				min-height: auto;
-				max-height: auto;
+				height: 100%;
+				min-height: 100%;
+				max-height: 100%;
 				width: 100%;
 				display: block;
 				position: relative;
@@ -640,11 +662,12 @@
 
 @media only screen and (max-width: 849px) and (min-width: 769px) {
 		#hero {
-				height: 40vh;
+				height: 100%;
 				min-height: 100%;
 				max-height: 100%;
 				width: 100%;
 				display: block;
+				padding-bottom: 50px;
 		}
 
 		#hero .content {
@@ -712,10 +735,11 @@
 
 @media only screen and (max-width: 768px) {
 		#hero {
-				height: 35vh;
+				height: 100%;
 				min-height: 100%;
 				max-height: 100%;
 				width: 100%;
+				padding-bottom: 70px;
 		}
 
 		#hero .content {
