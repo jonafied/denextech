@@ -50,9 +50,7 @@
 		.container {
 				width: 1570px;
 		}
-}
 
-@media only screen and (min-width: 1400px) {
 		#hero {
 				display:flex;
 				color: #fff;
@@ -60,7 +58,7 @@
 				font-family: Poppins, sans-serif;
 				padding: 0;
 				padding-top: 0;
-				height: 70vh;
+				height: 100%;
 				min-height: auto;
 				max-height: auto;
 				width: 100%;
@@ -71,10 +69,32 @@
 				-o-background-size: cover;
 				background-size: cover;
 		}
+}
+
+@media only screen and (min-width: 1400px) {
+		#hero {
+				display:flex;
+				color: #fff;
+				text-align: right;
+				font-family: Poppins, sans-serif;
+				padding: 0;
+				padding-top: 0;
+				height: 100%;
+				min-height: auto;
+				max-height: auto;
+				width: 100%;
+				background-position: center;
+				background-repeat: no-repeat;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				padding-bottom: 65px !important;
+		}
 
 		#hero .content {
 				position: relative;
-				top: 10px;
+				top: 30px;
 				left: 110px;
 				text-align: left;
 				margin: 0 auto;
@@ -118,7 +138,7 @@
 	}
 }
 
-@media only screen and (max-width: 1399px) and (min-width: 1200px) {
+@media only screen and (max-width: 1399px) {
 		#hero {
 				display:flex;
 				color: #fff;
@@ -126,7 +146,78 @@
 				font-family: Poppins, sans-serif;
 				padding: 0;
 				padding-top: 0;
-				height: 65vh;
+				height: 100%;
+				min-height: auto;
+				max-height: auto;
+				width: 100%;
+				background-position: center;
+				background-repeat: no-repeat;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				padding-bottom: 50px;
+		}
+
+		#hero .content {
+				position: relative;
+				top: 25px;
+				left: 100px;
+				text-align: left;
+				margin: 0 auto;
+				margin-left: 10px;
+		}
+
+		.box {
+				margin-left: 34px;
+				margin-right: 0;
+		}
+
+		#track .track-info {
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 1;
+				width: 53%;
+				height: auto;
+		}
+
+		.cards-buy  {
+				flex-wrap: nowrap;
+	 }
+}
+
+@media screen and (min-width: 1366px) {
+		#hero {
+				display:flex;
+				color: #fff;
+				text-align: right;
+				font-family: Poppins, sans-serif;
+				padding: 0;
+				padding-top: 0;
+				height: 100%;
+				min-height: auto;
+				max-height: auto;
+				width: 100%;
+				background-position: center;
+				background-repeat: no-repeat;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				padding-bottom: 50px;
+		}
+}
+
+@media only screen and (max-width: 1200px) {
+		#hero {
+				display:flex;
+				color: #fff;
+				text-align: right;
+				font-family: Poppins, sans-serif;
+				padding: 0;
+				padding-top: 0;
+				height: 100%;
 				min-height: auto;
 				max-height: auto;
 				width: 100%;
@@ -164,7 +255,7 @@
 		.cards-buy  {
 				flex-wrap: nowrap;
 	 }
-}
+}		
 
 @media only screen and (max-width: 1199px) and (min-width: 1025px) {
 		#hero {
@@ -259,8 +350,8 @@
 				padding: 0;
 				padding-top: 0;
 				height: 100%;
-				min-height: auto;
-				max-height: auto;
+				min-height: 100%;
+				max-height: 100%;
 				width: 100%;
 				background-position: center;
 				background-repeat: no-repeat;
@@ -368,9 +459,9 @@
 
 @media only screen and (max-width: 992px) {
 		#hero {
-				height: 50vh;
-				min-height: auto;
-				max-height: auto;
+				height: 100%;
+				min-height: 100%;
+				max-height: 100%;
 				width: 100%;
 				display: block;
 				position: relative;
@@ -400,7 +491,7 @@
 				padding-left: 0;
 		}
 
-		#track .left-half {
+/*		#track .left-half {
 				overflow: hidden;
 				width: 80%;
 				height: 300px;
@@ -411,10 +502,10 @@
 				background-repeat: no-repeat;
 				top: 0;
 				right: 0;
-		}
+		}*/
 
 		#track .left-half img {
-				display: none;
+				/*display: none;*/
 		}
 
 		#track .left-half,
@@ -450,8 +541,9 @@
 		}
 
 		#track .track-info {
-				max-width: 50%;
+				max-width: 53%;
 				top: 0;
+				left: 0;
 		}
 
 		.cards-buy {
@@ -570,11 +662,12 @@
 
 @media only screen and (max-width: 849px) and (min-width: 769px) {
 		#hero {
-				height: 40vh;
+				height: 100%;
 				min-height: 100%;
 				max-height: 100%;
 				width: 100%;
 				display: block;
+				padding-bottom: 50px;
 		}
 
 		#hero .content {
@@ -642,10 +735,11 @@
 
 @media only screen and (max-width: 768px) {
 		#hero {
-				height: 35vh;
+				height: 100%;
 				min-height: 100%;
 				max-height: 100%;
 				width: 100%;
+				padding-bottom: 70px;
 		}
 
 		#hero .content {
@@ -1103,7 +1197,7 @@
 				flex-wrap: wrap;
 		}
 
-		#track .left-half {
+/*		#track .left-half {
 				overflow: hidden;
 				width: 100%;
 				height: 330px;
@@ -1111,6 +1205,19 @@
 				-webkit-background-size: cover;
 				background-size: cover;
 				background-repeat: no-repeat;
+		}*/
+
+		#track .left-half {
+				overflow: hidden;
+				width: 100%;
+				height: 330px;
+				background-image: url(../img/img-track.png);
+				background-position: top center;
+				-webkit-background-size: cover;
+				background-size: cover;
+				background-repeat: no-repeat;
+/*				top: 0;
+				right: 0;*/
 		}
 
 		#track .left-half img {
