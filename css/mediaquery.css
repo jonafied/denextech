@@ -118,7 +118,7 @@
 	}
 }
 
-@media only screen and (max-width: 1399px) and (min-width: 1200px) {
+@media only screen and (max-width: 1399px) {
 		#hero {
 				display:flex;
 				color: #fff;
@@ -165,6 +165,75 @@
 				flex-wrap: nowrap;
 	 }
 }
+
+@media screen and (min-width: 1366px) {
+		#hero {
+				display:flex;
+				color: #fff;
+				text-align: right;
+				font-family: Poppins, sans-serif;
+				padding: 0;
+				padding-top: 0;
+				height: 75vh;
+				min-height: auto;
+				max-height: auto;
+				width: 100%;
+				background-position: center;
+				background-repeat: no-repeat;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+		}
+}
+
+@media only screen and (max-width: 1200px) {
+		#hero {
+				display:flex;
+				color: #fff;
+				text-align: right;
+				font-family: Poppins, sans-serif;
+				padding: 0;
+				padding-top: 0;
+				height: 65vh;
+				min-height: auto;
+				max-height: auto;
+				width: 100%;
+				background-position: center;
+				background-repeat: no-repeat;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+		}
+
+		#hero .content {
+				position: relative;
+				top: 25px;
+				left: 100px;
+				text-align: left;
+				margin: 0 auto;
+				margin-left: 10px;
+		}
+
+		.box {
+				margin-left: 34px;
+				margin-right: 0;
+		}
+
+		#track .track-info {
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 1;
+				width: 53%;
+				height: auto;
+		}
+
+		.cards-buy  {
+				flex-wrap: nowrap;
+	 }
+}		
 
 @media only screen and (max-width: 1199px) and (min-width: 1025px) {
 		#hero {
