@@ -700,11 +700,11 @@
 		    height: auto;
   	}
 
-  	section h3 {
+  	.section-info h3 {
 				font-size: 1.4em;
 		}
 
-		section p {
+		.section-info p {
 				font-size: .9em;
 				line-height: 1.4;
 		}
@@ -809,11 +809,11 @@
 				padding: 0;
 		}
 
-		section h3 {
+		.section-info h3 {
 				font-size: 1.3em;
 		}
 
-		section p {
+		.section-info p {
 				font-size: .9em;
 				line-height: 1.4;
 				margin-bottom: 10px;
