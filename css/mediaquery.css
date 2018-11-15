@@ -535,6 +535,11 @@
 				padding: 0 15px;
 		}
 
+		#grow .right-half .content {
+		    max-width: 100%;
+		    height: auto;
+		}
+
 		.box {
 				margin: 80px 25px;
 				left: 10px;
@@ -695,6 +700,15 @@
 		    height: auto;
   	}
 
+  	section h3 {
+				font-size: 1.4em;
+		}
+
+		section p {
+				font-size: .9em;
+				line-height: 1.4;
+		}
+
 		.footer {
 				padding: 70px 30px 20px;
 				font-size: 1em;
@@ -787,10 +801,15 @@
 				padding: 0;
 		}
 
-		#access, #grow {
-		padding-top: 20px;
-		padding-bottom: 20px;
+		section h3 {
+				font-size: 1.3em;
+		}
 
+		section p {
+				font-size: .9em;
+				line-height: 1.4;
+				margin-bottom: 10px;
+				margin-top: 10px;
 		}
 
 		#notify .left-half .content {
