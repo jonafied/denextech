@@ -522,7 +522,7 @@
 				position: absolute;
 				width: 60%;
 				height: auto;
-				margin-top: 40px;
+				margin-top: 50px;
 				background-image: url(../img/img-notify.png);
 				background-position: top right;
 				-webkit-background-size: cover;
@@ -535,6 +535,11 @@
 				padding: 0 15px;
 		}
 
+		#grow .right-half .content {
+		    max-width: 100%;
+		    height: auto;
+		}
+
 		.box {
 				margin: 80px 25px;
 				left: 10px;
@@ -542,7 +547,7 @@
 
 		#track .track-info {
 				max-width: 53%;
-				top: 0;
+				margin-top: 50px;
 				left: 0;
 		}
 
@@ -695,6 +700,19 @@
 		    height: auto;
   	}
 
+  	section h3 {
+				font-size: 1.4em;
+		}
+
+		section p {
+				font-size: .9em;
+				line-height: 1.4;
+		}
+
+		#track, #notify {
+				height: 350px;
+		}
+
 		.footer {
 				padding: 70px 30px 20px;
 				font-size: 1em;
@@ -770,6 +788,10 @@
 				top: 0;
 		}
 
+		#track, #notify {
+				height: 350px;
+		}
+
 		#grow .right-half .content {
 				max-width: 100%;
 				height: auto;
@@ -787,10 +809,15 @@
 				padding: 0;
 		}
 
-		#access, #grow {
-		padding-top: 20px;
-		padding-bottom: 20px;
+		section h3 {
+				font-size: 1.3em;
+		}
 
+		section p {
+				font-size: .9em;
+				line-height: 1.4;
+				margin-bottom: 10px;
+				margin-top: 10px;
 		}
 
 		#notify .left-half .content {
