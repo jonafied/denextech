@@ -17,7 +17,6 @@ body  {
     background-color: #fff;
     color: #71717e;
     font-weight: 400;
-    /*font-size: 1.125em;*/
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
     text-rendering: optimizeLegibility;
@@ -521,10 +520,6 @@ section h3 {
     height: auto;
 }
 
-#notify .left-half {
-    /* padding-left: 35px; */
-}
-
 #notify .left-half .content {
     max-width: 40%;
     height: auto;
@@ -543,7 +538,6 @@ section h3 {
 #grow .right-half .content {
     max-width: 80%;
     height: auto;
-    /* padding: 0; */
 }
 
 /*pricing*/

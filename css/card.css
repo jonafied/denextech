@@ -21,6 +21,7 @@
 }
 
 @media only screen and (min-width: 1366px) {
+		
 		.card .icon.hovered {
 				display: none;
 		} 
@@ -81,6 +82,7 @@
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1365px) {
+		
 		#features .flex-wrap {
 				flex-wrap: nowrap;
 		}
@@ -123,6 +125,7 @@
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1199px) {
+		
 		.card {
 				width: 40%;
 				padding: 40px 40px;
@@ -162,14 +165,11 @@
 
 @media only screen and (max-width: 1024px) {
 
-/*		.icon.hovered {
-				display: none;
-		}*/
-
 		.card {
 				width: 40%;
 				padding: 40px 40px;
 				margin-top: 0;
+				margin-bottom: 10px;
 		}
 
 		.card .icon.hovered {
@@ -203,9 +203,6 @@
 }
 
 @media only screen and (max-width: 992px) {
-	/*	.icon.hovered {
-				display: none;
-		}*/
 
 		.card {
 				width: 45%;
@@ -250,10 +247,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-	/*	.icon.hovered {
-				display: none;
-		}*/
-		
+
 		.card {
 				width: 50%;
 				padding: 40px 40px;
@@ -307,10 +301,6 @@
 @media only screen and (min-width: 736px) and (max-width: 812px) and (orientation: landscape) 
 	and (-webkit-min-device-pixel-ratio: 2) {
 
-		/*.icon.hovered {
-				display: none;
-		} */
-
 		.card .icon.hovered {
 				display: none;
 		} 
@@ -342,9 +332,6 @@
 }
 
 @media only screen and (max-width: 667px) {
-/* 	 .icon.hovered {
-				display: none !important;
-	 } */
 
 		.card {
 				margin-top: 25px;
@@ -385,9 +372,6 @@
 }
 
 @media only screen and (min-width: 321px) and (max-width: 599px) {
-/*		.icon.hovered {
-				display: none;
-		}*/
 
 		.card {
 				height: 350px;

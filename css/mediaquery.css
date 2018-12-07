@@ -1,6 +1,7 @@
 /*media only screen*/
 
 @media only screen and (min-width: 1900px) {
+		
 		.container {
 		    margin: 0 auto;
 		    overflow: hidden;
@@ -47,6 +48,7 @@
 }
 
 @media only screen and (min-width: 1600px) {
+		
 		.container {
 				width: 1570px;
 		}
@@ -72,6 +74,7 @@
 }
 
 @media only screen and (min-width: 1400px) {
+		
 		#hero {
 				display:flex;
 				color: #fff;
@@ -108,11 +111,12 @@
 				z-index: 1;
 				width: 53%;
 				height: auto;
-	}
+		}
 }
 
 @media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) 
 	and (-webkit-min-device-pixel-ratio: 2) {
+		
 		#hero {
 				display:flex;
 				color: #fff;
@@ -135,10 +139,11 @@
 		#features {
     		padding: 20px 50px;
     		padding-bottom: 50px;
-	}
+		}
 }
 
 @media only screen and (max-width: 1399px) {
+		
 		#hero {
 				display:flex;
 				color: #fff;
@@ -188,6 +193,7 @@
 }
 
 @media screen and (min-width: 1366px) {
+		
 		#hero {
 				display:flex;
 				color: #fff;
@@ -210,6 +216,7 @@
 }
 
 @media only screen and (max-width: 1200px) {
+		
 		#hero {
 				display:flex;
 				color: #fff;
@@ -258,6 +265,7 @@
 }		
 
 @media only screen and (max-width: 1199px) and (min-width: 1025px) {
+		
 		#hero {
 				display:flex;
 				color: #fff;
@@ -338,10 +346,11 @@
 		.footer .copyright {
 				text-align: left;
 				font-size: .875em;
-	}
+		}
 }
 
 @media only screen and (max-width: 1024px) {
+		
 		#hero {
 				display:flex;
 				color: #fff;
@@ -458,6 +467,7 @@
 }
 
 @media only screen and (max-width: 992px) {
+		
 		#hero {
 				height: 100%;
 				min-height: 100%;
@@ -489,23 +499,6 @@
 				max-width: 50%;
 				height: auto;
 				padding-left: 0;
-		}
-
-/*		#track .left-half {
-				overflow: hidden;
-				width: 80%;
-				height: 300px;
-				background-image: url(../img/img-track.png);
-				background-position: top right;
-				-webkit-background-size: cover;
-				background-size: cover;
-				background-repeat: no-repeat;
-				top: 0;
-				right: 0;
-		}*/
-
-		#track .left-half img {
-				/*display: none;*/
 		}
 
 		#track .left-half,
@@ -589,11 +582,12 @@
 		.footer .copyright {
 				text-align: left;
 				font-size: .875em;
-	}
+		}
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) 
 	and (-webkit-min-device-pixel-ratio: 2) {
+		
 		#hero {
 				height: 35vh;
 				min-height: auto;
@@ -601,11 +595,12 @@
 				width: 100%;
 				display: block;
 				position: relative;
-	}
+		}
 }
 
 @media only screen and (min-device-width: 769px) and (max-device-width: 1024px) and (orientation: portrait) 
 	and (-webkit-min-device-pixel-ratio: 2) {
+		
 		#hero .content {
 				position: absolute;
 				top: 55px;
@@ -622,7 +617,6 @@
 		}
 
 		.cards {
-				/* width: 100vw; */
 				height: auto;
 				display: inline-block;
 		}
@@ -644,10 +638,6 @@
 				margin-bottom: 30px;
 		}
 
-	/*	.footer-contacts {
-				margin-left: 0;
-		}*/
-
 		.footer-contacts .col {
 				-webkit-flex-wrap: wrap;
 				-ms-flex-wrap: wrap;
@@ -661,8 +651,7 @@
 		.footer .copyright {
 				text-align: left;
 				font-size: .875em;
-				/*margin-left: 0;*/
-	}
+		}
 }
 
 @media only screen and (max-width: 849px) and (min-width: 769px) {
@@ -799,7 +788,6 @@
 		}
 
 		.section-info .content {
-				/*max-width: 100%;*/
 				height: auto;
 				padding: 0;
 		}
@@ -913,6 +901,7 @@
 
 @media only screen and (min-device-width: 812px) and (max-device-width: 812px) and (orientation: landscape) 
 	and (-webkit-min-device-pixel-ratio: 2) {
+		
 		.container {
 				padding-right: 0;
 				padding-left: 0;
@@ -990,6 +979,7 @@
 
 @media only screen and (min-device-width: 736px) and (max-device-width: 736px) and (orientation: landscape) 
 	and (-webkit-min-device-pixel-ratio: 2) {
+		
 		#hero .container-video {
 				display: none;
 		}
@@ -1062,7 +1052,7 @@
 		
 		#hero .container-video {
 				display: none;
-	}
+		}
 }
 
 @media only screen and (max-width: 667px) {
@@ -1224,16 +1214,6 @@
 				flex-wrap: wrap;
 		}
 
-/*		#track .left-half {
-				overflow: hidden;
-				width: 100%;
-				height: 330px;
-				background-position: top center;
-				-webkit-background-size: cover;
-				background-size: cover;
-				background-repeat: no-repeat;
-		}*/
-
 		#track .left-half {
 				overflow: hidden;
 				width: 100%;
@@ -1243,8 +1223,6 @@
 				-webkit-background-size: cover;
 				background-size: cover;
 				background-repeat: no-repeat;
-/*				top: 0;
-				right: 0;*/
 		}
 
 		#track .left-half img {
@@ -1537,6 +1515,7 @@
 }
 
 @media only screen and (min-width: 321px) and (max-width: 599px) {
+		
 		.container {
 				padding-right: 0;
 				padding-left: 0;
@@ -1559,15 +1538,12 @@
 				padding-top: 0;
 				width: 100%;
 				padding-top: 30px;
-				/* min-height: 100vh; */
-				/*max-height: 100%;*/
 		}
 
 		#hero .content {
 				margin-top: 30px;
 				display: block;
 				width: auto;
-				/* height: 91vh; */
 	 }
 
 		#hero p {
@@ -1647,13 +1623,15 @@
 
 @media only screen and (min-device-width: 568px) and (max-device-width: 568px) and (orientation: landscape) 
 	and (-webkit-min-device-pixel-ratio: 2) {
+		
 		#hero {
 				padding-top: 30px;
 				height: 165vh;
-	}
+		}
 }
 
 @media only screen and (max-width: 320px) {
+		
 		#hero .container-video {
 				display: none;
 		}
@@ -1670,7 +1648,6 @@
 				width: 100%;
 				padding-top: 40px;
 				min-height: 100vh;
-				/*max-height: 100%;*/
 		}
 
 		#hero .content {
